@@ -2,7 +2,8 @@ from GoogleNews import GoogleNews
 from newsapi import NewsApiClient
 from pydantic import BaseModel
 from typing import Optional
-from datetime import datetime
+
+# TODO: neither of these is filtering by date properly, old articles are appearing
 
 googlenews = GoogleNews(lang="en", region="GB", start="04/01/2020", encode="utf-8")
 
