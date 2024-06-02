@@ -7,9 +7,8 @@ import axios from "axios";
 const Search = () => {
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
   const [search, setSearch] = useState("");
-
+  // BUG! first selection is null
   const handleTopicChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    console.log(handleSearchChange);
     setSelectedTopic(event.target.value);
   };
 

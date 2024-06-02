@@ -1,7 +1,11 @@
+import Image from "next/image";
+
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100">
-      <a className="btn btn-ghost text-xl">News Search</a>
+    <div className="navbar">
+      <a className="btn">
+        <Image src="/icons/news.svg" height={40} width={40} alt="news icon" />
+      </a>
     </div>
   );
 };

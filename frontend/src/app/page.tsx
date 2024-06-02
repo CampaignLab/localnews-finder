@@ -6,7 +6,7 @@ export default function Home() {
     <div className="h-screen flex flex-col">
       <Navbar />
       <div className="flex flex-grow overflow-y-auto">
-        <main className="flex-grow p-20">
+        <main className="flex-grow pl-20 pr-20">
           <Main />
         </main>
       </div>
