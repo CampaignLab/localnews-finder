@@ -2,6 +2,7 @@ from GoogleNews import GoogleNews
 from newsapi import NewsApiClient
 from pydantic import BaseModel
 from typing import Optional
+from urllib.parse import quote
 
 # TODO: neither of these is filtering by date properly, old articles are appearing
 
@@ -54,5 +55,5 @@ def getNewsApiStories(searchTerm):
 
 
 def getStories(placename, topic):
-    searchTerm = f"{placename} {topic}"
+    searchTerm = quote(f"{placename} {topic}")
     return getNewsApiStories(searchTerm) + getGoogleNewsStories(searchTerm)
