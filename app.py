@@ -29,8 +29,9 @@ def search_route():
     try:
         constituency = unquote(constituency)
         topic = unquote(topic)
-        results = search(constituency, topic)
-        return jsonify(results)
+        articles = search(constituency, topic)
+        articles_dict = [article.model_dump() for article in articles]
+        return jsonify(articles_dict)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
