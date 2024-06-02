@@ -17,7 +17,10 @@ const Articles = () => {
             <p>Source: {article.source}</p>
             <p>Date: {article.date}</p>
             <p>
-              Link: <a href={article.link}>{article.link}</a>
+              Link:{" "}
+              <a href={article.link} target="_blank" rel="noopener noreferrer">
+                {article.link}
+              </a>
             </p>
             <p>
               {article.img && (
