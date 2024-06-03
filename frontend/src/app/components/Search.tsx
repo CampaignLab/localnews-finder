@@ -16,13 +16,16 @@ const Search = () => {
     setSearch(event.target.value);
   };
 
-  async function getArticles(topic: string, town: string): Promise<Article[]> {
-    const url = `localhost:3000/api/articles?topic=${topic}&town=${town}`;
+  async function getArticles(
+    topic: string,
+    constituency: string,
+  ): Promise<Article[]> {
+    const url = `http://localhost:5000/search?constituency=${constituency}&topic=${topic}`;
     const response = await axios.get(url);
     return response.data;
   }
 
-  function autoComplete() {}
+  function autoComplete() { }
 
   return (
     <div className="flex flex-col lg:flex-row justify-normal gap-4 m-4 lg:m-10 w-80 lg:w-full">
