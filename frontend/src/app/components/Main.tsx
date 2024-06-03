@@ -8,7 +8,7 @@ const Main = () => {
         <div className="divider divider-neutral"></div>
 
         <Search />
-        <Articles />
+        {/* <Articles /> */}
       </div>
     </>
   );
