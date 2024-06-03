@@ -3,8 +3,16 @@ from urllib.parse import unquote
 from search import search
 from places import getConstituencies
 
+from flask_cors import CORS
 app = Flask(__name__)
 
+
+# TODO security: specify the origins
+CORS(app)
+
+@app.route('/test')
+def test():
+    return "CORS is working!"
 
 @app.route("/constituencies", methods=["GET"])
 def constituencies_route():
@@ -27,6 +35,7 @@ def search_route():
         )
 
     try:
+        print(f"fetching results {constituency} and {topic}")
         constituency = unquote(constituency)
         topic = unquote(topic)
         articles = search(constituency, topic)
