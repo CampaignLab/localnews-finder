@@ -1,6 +1,16 @@
-import { articles } from "@/consts";
 import Image from "next/image";
-const Articles = () => {
+import { Article } from "@/types";
+type ArticlesProps = {
+  articles: Article[];
+};
+
+const Articles: React.FC<ArticlesProps> = ({ articles }) => {
+  const getFullUrl = (url: string) => {
+    if (!/^https?:\/\//i.test(url)) {
+      return `http://${url}`;
+    }
+    return url;
+  };
   return (
     <div className="w-80 lg:w-full">
       {articles.map((article) => (
@@ -17,13 +27,20 @@ const Articles = () => {
             <p>Source: {article.source}</p>
             <p>Date: {article.date}</p>
             <p>
-              Link: <a href={article.link}>{article.link}</a>
+              Link:{" "}
+              <a
+                href={getFullUrl(article.link || "")}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {article.link}
+              </a>
             </p>
             <p>
               {article.img && (
                 <p>
                   <Image
-                    src={article.img || ""}
+                    src={`https://${article.img}` || ""}
                     alt={article.title || "Article image"}
                     height={100}
                     width={100}

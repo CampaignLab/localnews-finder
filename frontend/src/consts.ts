@@ -23,7 +23,7 @@ export const articles: Article[] = [
       "In a remarkable advancement for renewable energy, scientists at Green Energy Labs have developed solar panels that can generate electricity even when the sun isn't shining. This new technology, called NightSolar, uses a combination of advanced photovoltaic materials and thermal energy storage to harness energy 24/7. The panels store excess energy collected during the day and convert it into electricity at night, providing a continuous power supply. This breakthrough has the potential to significantly increase the efficiency and reliability of solar power, making it a more viable alternative to traditional energy sources. Experts are optimistic that NightSolar will accelerate the global shift towards sustainable energy.",
     date: "2024-06-02",
     link: "https://www.greenenergynews.com/articles/breakthrough-solar-panels-work-at-night",
-    img: "https://imgs.search.brave.com/3pCaNlWrUq0lGYuHdNUC2Pt2b_smotxfpuMnltDwANA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2ZkLzIy/LzJmL2ZkMjIyZjRh/NTcxOGRkN2Y2NGM0/YmFkOWExMjc5NmUy/LmpwZw",
+    img: "https://imgs.search.brave.com/C6Ud2Jns8-rBRqoq-OfaAlJRaOsTd99UXyfdjpGgTGs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2VhLzlm/L2NmL2VhOWZjZjE0/YThjZjFlYWM3MTI5/ZWVlM2Y1MGM2NTY5/LmpwZw",
     author: "John Smith",
   },
   {
@@ -35,7 +35,7 @@ export const articles: Article[] = [
       "In a groundbreaking achievement, researchers at QuantumTech Labs have unveiled a quantum computer that outperforms the fastest traditional supercomputers. This new prototype, named QuantumLeap, leverages quantum bits (qubits) to perform complex calculations at unprecedented speeds. QuantumLeap's ability to process data exponentially faster than classical computers could revolutionize fields such as cryptography, material science, and artificial intelligence. The breakthrough brings us closer to realizing the full potential of quantum computing, promising a future where computational limitations are a thing of the past. Experts anticipate that this advancement will lead to significant technological and scientific breakthroughs in the coming years.",
     date: "2024-06-02",
     link: "https://www.futuretechweekly.com/articles/quantum-computer-unprecedented-speed",
-    img: "https://imgs.search.brave.com/3pCaNlWrUq0lGYuHdNUC2Pt2b_smotxfpuMnltDwANA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2ZkLzIy/LzJmL2ZkMjIyZjRh/NTcxOGRkN2Y2NGM0/YmFkOWExMjc5NmUy/LmpwZw",
+    img: "https://imgs.search.brave.com/kvS_fmvm_IXnOF5GWKL7sx9aIuT32GjPNEZCvqwuAss/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMucG9zdGVycy5j/ei9pbWFnZS83NTAv/cG9zdGVycy90aGUt/eC1maWxlcy1pLXdh/bnQtdG8tYmVsaWV2/ZS1pMzA1OTIuanBn",
     author: "Emily Johnson",
   },
   {
@@ -47,7 +47,7 @@ export const articles: Article[] = [
       "In a stunning development, newly uncovered documents have shed light on the enigmatic 'E.B.E.' incident, a case famously documented in the 'X-Files' television series. The episode, originally aired in 1994, delves into the investigation of a supposed extraterrestrial biological entity (E.B.E.) following a UFO encounter. Recent findings suggest that elements of the episode may have been based on real events, with credible eyewitnesses and declassified government files hinting at a cover-up. These revelations have reignited public interest in UFO phenomena and the quest for truth. Experts in the field believe this could be a pivotal moment in the ongoing debate over extraterrestrial life and government secrecy.",
     date: "2024-06-02",
     link: "https://www.paranormalinvestigationsjournal.com/articles/uncovering-the-truth-behind-ebe-incident",
-    img: "https://imgs.search.brave.com/3pCaNlWrUq0lGYuHdNUC2Pt2b_smotxfpuMnltDwANA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2ZkLzIy/LzJmL2ZkMjIyZjRh/NTcxOGRkN2Y2NGM0/YmFkOWExMjc5NmUy/LmpwZw",
+    img: "https://imgs.search.brave.com/rp0mhCYct9mH938AmFVyzpAlLJUACHK3TUWQcXV49AM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2YyL2E4/LzEwL2YyYTgxMGFl/YjkyOTYyNzQwOGE2/MTI2NzRkMjIwNDdh/LmpwZw",
     author: "Dana Scully",
   },
   {
@@ -60,7 +60,7 @@ export const articles: Article[] = [
       "In a groundbreaking exposé, recently declassified government documents have unveiled new information about the elusive figure known as the Cigarette Smoking Man. Featured prominently in the 'X-Files' episode 'Musings of a Cigarette Smoking Man,' this shadowy character is portrayed as being involved in numerous historical conspiracies. The newly released files suggest that there may be a real-life counterpart to this character, with ties to covert operations and significant influence over key events throughout the latter half of the 20th century. These revelations have sparked intense debate among conspiracy theorists and historians alike, as they attempt to piece together the true extent of the Cigarette Smoking Man's impact on world history.",
     date: "2024-06-02",
     link: "https://www.conspiracytheoryweekly.com/articles/secret-files-cigarette-smoking-man",
-    img: "https://imgs.search.brave.com/3pCaNlWrUq0lGYuHdNUC2Pt2b_smotxfpuMnltDwANA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2ZkLzIy/LzJmL2ZkMjIyZjRh/NTcxOGRkN2Y2NGM0/YmFkOWExMjc5NmUy/LmpwZw",
+    img: "https://imgs.search.brave.com/GfWnDQkwJqFjsaE--VTiX97I8dDtdl6l0m4A64zMVw8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NDF0TWQxWHpMbUwu/anBn",
     author: "C.G.B. Spender",
   },
   {
