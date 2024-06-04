@@ -10,6 +10,7 @@ Then:
 
 ```python
 source .venv/bin/activate
+pip install -r requirements.txt
 python app.py
 ```
 
@@ -19,4 +20,4 @@ This will create a server at http://localhost:5000
 
 http://localhost:5000/constituencies will return a sorted list of constituencies.
 
-http://localhost:5000/search?constituency=<url-encoded constituency name>&topic=<searchTerm>
+`http://localhost:5000/search?constituency=<url-encoded constituency name>&topic=<searchTerm>` will return the news search results.
