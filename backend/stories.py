@@ -25,7 +25,7 @@ class Article(BaseModel):
 def getGoogleNewsStories(searchTerm):
     googlenews.clear()
     googlenews.get_news(searchTerm)
-    return [
+    retval = [
         Article(
             title=result["title"],
             date=result["date"],
@@ -36,10 +36,12 @@ def getGoogleNewsStories(searchTerm):
         )
         for result in googlenews.results()
     ]
+    print(f"Found {len(retval)} stories on Google News for {searchTerm}")
+    return retval
 
 
 def getNewsApiStories(searchTerm):
-    return [
+    retval = [
         Article(
             title=article["title"],
             description=article["description"],
@@ -52,8 +54,10 @@ def getNewsApiStories(searchTerm):
         )
         for article in api.get_everything(q=searchTerm)["articles"]
     ]
+    print(f"Found {len(retval)} stories on News API for {searchTerm}")
+    return retval
 
 
 def getStories(placename, topic):
-    searchTerm = quote(f"{placename} {topic}")
+    searchTerm = f"{placename} {topic}"
     return getNewsApiStories(searchTerm) + getGoogleNewsStories(searchTerm)
