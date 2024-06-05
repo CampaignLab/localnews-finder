@@ -78,4 +78,21 @@ export const articles: Article[] = [
   },
 ];
 
-export const topics = ["NHS", "Sewage", "Policing"];
+export const topics = [
+  "Bus",
+  "Cost of living",
+  "Crime",
+  "Cuts",
+  "Economy",
+  "Education",
+  "Election",
+  "Energy",
+  "Jobs",
+  "Levelling up",
+  "NHS",
+  "Policing",
+  "Potholes",
+  "Rail",
+  "Sewage",
+  "Transport",
+];

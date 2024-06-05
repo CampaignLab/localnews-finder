@@ -24,7 +24,6 @@ const Search = () => {
   ): Promise<Article[]> {
     if (!topic || !constituency) return [];
     console.log(`Searching for ${topic} in ${constituency}`);
-    // const url = "http://127.0.0.1:5000/search?constituency=barking&topic=nhs";
     const url = `http://127.0.0.1:5000/search?constituency=${constituency}&topic=${topic}`;
     const response = await axios.get(url);
     setArticles(response.data);
@@ -60,7 +59,7 @@ const Search = () => {
 
         <select
           className="select select-bordered w-full max-w-xs"
-          value={selectedTopic}
+          value={selectedTopic ?? undefined}
           onChange={handleTopicChange}
         >
           <option disabled selected>
