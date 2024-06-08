@@ -1,4 +1,4 @@
-from stories import getStories
+from chalicelib.stories import getStories
 
 import sys
 

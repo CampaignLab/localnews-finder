@@ -1,6 +1,6 @@
 from urllib.parse import unquote
-from search import search
-from places import getConstituencies
+from chalicelib.search import search
+from chalicelib.places import getConstituencies
 
 from chalice import Chalice, Response
 

@@ -10,7 +10,7 @@ def csv_to_dict(file_path):
     return data
 
 
-data = csv_to_dict("towns123.csv")
+data = csv_to_dict("chalicelib/towns123.csv")
 
 places_map = {}
 
@@ -22,6 +22,7 @@ for row in data:
             places_map[key].append(value)
         else:
             places_map[key] = [value]
+print("The data is loaded")
 
 
 def getConstituencies():

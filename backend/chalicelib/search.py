@@ -1,5 +1,5 @@
-import stories
-import places
+from . import stories
+from . import places
 import concurrent.futures
 
 
