@@ -40,7 +40,7 @@ const Articles: React.FC<ArticlesProps> = ({ articles }) => {
               {article.img && (
                 <p>
                   <Image
-                    src={`https://${article.img}` || ""}
+                    src={article.img || ""}
                     alt={article.title || "Article image"}
                     height={100}
                     width={100}
