@@ -1,15 +1,23 @@
-import pandas as pd
+import csv
 
-# Read the CSV file into a pandas DataFrame
-df = pd.read_csv("towns123.csv").sort_values(by="new_constituency_name")
+
+def csv_to_dict(file_path):
+    data = []
+    with open(file_path, mode="r") as csv_file:
+        csv_reader = csv.DictReader(csv_file)
+        for row in csv_reader:
+            data.append(row)
+    return data
+
+
+data = csv_to_dict("towns123.csv")
 
 places_map = {}
 
-# Iterate through the DataFrame to populate the dictionary
-for index, row in df.iterrows():
-    key = row["new_constituency_name"].upper()
+for row in data:
+    key = row["new_constituency_name"]
     value = row["town_name"]
-    if pd.notna(value) and len(value) > 0:
+    if len(value) > 0:
         if key in places_map:
             places_map[key].append(value)
         else:
@@ -21,4 +29,4 @@ def getConstituencies():
 
 
 def getPlaces(constituency):
-    return places_map.get(constituency.upper(), [])
+    return places_map.get(constituency, [])
