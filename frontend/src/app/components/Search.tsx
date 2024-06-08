@@ -5,6 +5,8 @@ import { Article } from "@/types";
 import axios from "axios";
 import Articles from "./Articles";
 
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
+
 const Search = () => {
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
   const [search, setSearch] = useState("");
@@ -24,7 +26,7 @@ const Search = () => {
   ): Promise<Article[]> {
     if (!topic || !constituency) return [];
     console.log(`Searching for ${topic} in ${constituency}`);
-    const url = `http://127.0.0.1:5000/search?constituency=${constituency}&topic=${topic}`;
+    const url = `${BASE_URL}/search?constituency=${constituency}&topic=${topic}`;
     const response = await axios.get(url);
     setArticles(response.data);
     return response.data;
