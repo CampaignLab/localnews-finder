@@ -1,14 +1,14 @@
-from GoogleNews import GoogleNews
-from newsapi import NewsApiClient
+from . import AsyncGoogleNews
+from .asyncnewsapi.newsapi_client import AsyncNewsApiClient
 from pydantic import BaseModel
 from typing import Optional
-from urllib.parse import quote
+import asyncio
 
 # TODO: neither of these is filtering by date properly, old articles are appearing
 
-googlenews = GoogleNews(lang="en", region="GB", start="04/01/2020", encode="utf-8")
+googlenews = AsyncGoogleNews.GoogleNews(lang="en", region="GB")
 
-api = NewsApiClient(api_key="d3f8935cccc84a7a8e7e30c14d47c673")
+api = AsyncNewsApiClient(api_key="d3f8935cccc84a7a8e7e30c14d47c673")
 
 
 class Article(BaseModel):
@@ -22,9 +22,9 @@ class Article(BaseModel):
     author: Optional[str] = None
 
 
-def getGoogleNewsStories(searchTerm):
+async def getGoogleNewsStories(searchTerm):
     googlenews.clear()
-    googlenews.get_news(searchTerm)
+    results = await googlenews.get_news(searchTerm)
     retval = [
         Article(
             title=result["title"],
@@ -34,13 +34,14 @@ def getGoogleNewsStories(searchTerm):
             source=result["media"],
             author=result["reporter"],
         )
-        for result in googlenews.results()
+        for result in results
     ]
     print(f"Found {len(retval)} stories on Google News for {searchTerm}")
     return retval
 
 
-def getNewsApiStories(searchTerm):
+async def getNewsApiStories(searchTerm):
+    everything = await api.get_everything(q=searchTerm)
     retval = [
         Article(
             title=article["title"],
@@ -52,12 +53,15 @@ def getNewsApiStories(searchTerm):
             source=article["source"]["name"],
             author=article["author"],
         )
-        for article in api.get_everything(q=searchTerm)["articles"]
+        for article in everything["articles"]
     ]
     print(f"Found {len(retval)} stories on News API for {searchTerm}")
     return retval
 
 
-def getStories(placename, topic):
+async def getStories(placename, topic):
     searchTerm = f"{placename} {topic}"
-    return getNewsApiStories(searchTerm) + getGoogleNewsStories(searchTerm)
+    newsresults, googleresults = await asyncio.gather(
+        getNewsApiStories(searchTerm), getGoogleNewsStories(searchTerm)
+    )
+    return newsresults + googleresults
