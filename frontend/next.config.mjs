@@ -2,7 +2,16 @@
 const nextConfig = {
   output: "export",
   images: {
-    domains: ["imgs.search.brave.com", "news.google.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**", // This allows images from any domain
+      },
+      {
+        protocol: "http",
+        hostname: "**", // This allows images from any domain
+      },
+    ],
   },
 };
 
