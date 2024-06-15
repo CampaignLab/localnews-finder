@@ -18,6 +18,7 @@ Then:
 cd backend
 source .venv/bin/activate
 pip install -r requirements.txt
+echo "NEWS_API_KEY=<our api key>" > .env
 chalice local --port 5000
 ```
 

@@ -1,14 +1,21 @@
 from . import AsyncGoogleNews
 from .asyncnewsapi.newsapi_client import AsyncNewsApiClient
+
 from pydantic import BaseModel
 from typing import Optional
 import asyncio
+import os
+
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 # TODO: neither of these is filtering by date properly, old articles are appearing
 
 googlenews = AsyncGoogleNews.GoogleNews(lang="en", region="GB")
 
-api = AsyncNewsApiClient(api_key="d3f8935cccc84a7a8e7e30c14d47c673")
+api = AsyncNewsApiClient(os.environ["NEWS_API_KEY"])
 
 
 class Article(BaseModel):
