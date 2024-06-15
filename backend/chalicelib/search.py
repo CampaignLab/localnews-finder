@@ -1,22 +1,27 @@
 from . import stories
-from . import places
+from . import data
 import asyncio
+
+
+# Function to get stories for a given place
+async def get_stories_for_place(place, term):
+    place_stories = await stories.getStories(place, term)
+    return place_stories
 
 
 async def async_search(constituency, topic):
     print(f"Searching for {topic} stories in {constituency}")
-    places_list = places.getPlaces(constituency)
-    stories_list = []
+    places_list = data.getPlaces(constituency)
+    terms_list = data.getTerms(topic)
+    print(f"{len(places_list)} places and {len(terms_list)} terms found")
 
-    # Function to get stories for a given place
-    async def get_stories_for_place(place):
-        place_stories = await stories.getStories(place, topic)
-        print(f"Found {len(place_stories)} stories for {place}")
-        return place_stories
-
-    tasks = [get_stories_for_place(place) for place in places_list]
-    tasks.append(get_stories_for_place(constituency))
+    tasks = []
+    for place in places_list:
+        for term in terms_list:
+            tasks.append(get_stories_for_place(place, term))
+    print(f"{len(tasks)} tasks created")
     results = await asyncio.gather(*tasks)
+    stories_list = []
     for result in results:
         stories_list.extend(result)
 
@@ -33,4 +38,11 @@ def search(constituency, topic):
         results = loop.run_until_complete(async_search(constituency, topic))
         return results
     finally:
+        pending = asyncio.all_tasks(loop)
+        for task in pending:
+            task.cancel()
+            try:
+                loop.run_until_complete(task)
+            except asyncio.CancelledError:
+                pass
         loop.close()
