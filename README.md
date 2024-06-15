@@ -68,8 +68,13 @@ chalice deploy
 
 ## Deploying the frontend
 
-From the frontend directory, run `bun run build` (not `bun build`). This will export HTML/JS files to a subdirectory `out`.
+You will need the AWS CLI installed.
 
-Use the AWS console to upload the contents of this directory to our S3 bucket. We don't yet have a script for this.
+From the frontend directory, run
+
+```bash
+bun run build
+bun run deploy
+```
 
 The site is currently running at https://d30wfp6i5v88nt.cloudfront.net/

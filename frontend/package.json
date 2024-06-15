@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "deploy": "aws s3 sync out/ s3://localnews-finder-frontend/ --region eu-west-2 --delete",
     "start": "next start",
     "lint": "next lint"
   },
