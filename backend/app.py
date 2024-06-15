@@ -1,12 +1,16 @@
 from urllib.parse import unquote
 from chalicelib.search import search
 from chalicelib.data import getConstituencies
-
 from chalice import Chalice, Response
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
 
 app = Chalice(app_name="localnews-finder-backend")
-
+app.lambda_function(name="localnews-finder-backend-dev").environment_variables = {
+    "NEWS_API_KEY": os.environ["NEWS_API_KEY"],
+}
 
 # TODO security: specify the origins
 
