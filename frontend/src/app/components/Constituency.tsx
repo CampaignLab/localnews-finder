@@ -650,8 +650,6 @@ const items = constituencies.map((constituency) => {
   };
 });
 
-console.log(items);
-
 const Constituency = ({
   className,
   onSelect,

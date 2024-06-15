@@ -38,7 +38,8 @@ http://127.0.0.1:5000/constituencies will return a sorted list of constituencies
 cd frontend
 curl -fsSL https://bun.sh/install | bash
 bun install
-echo "NEXT_PUBLIC_BASE_URL=http://127.0.0.1:5000" > .env.local
+echo "NEXT_PUBLIC_BASE_URL=http://127.0.0.1:5000" > .env.development
+echo "NEXT_PUBLIC_BASE_URL=<our api gateway url>" > .env.production
 bun dev
 ```
 

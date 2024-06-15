@@ -9,7 +9,7 @@ import Constituency from "./Constituency";
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 
 const Search = () => {
-  const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
+  const [selectedTopic, setSelectedTopic] = useState<string>("pick");
   const [search, setSearch] = useState("");
   const [articles, setArticles] = useState<Article[]>([]);
   // BUG! first selection is null
@@ -40,7 +40,7 @@ const Search = () => {
           value={selectedTopic ?? undefined}
           onChange={handleTopicChange}
         >
-          <option disabled selected>
+          <option value="pick" disabled>
             Pick a topic
           </option>
           {topics.map((topic, index) => (
