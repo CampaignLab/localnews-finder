@@ -5,6 +5,8 @@ type ArticlesProps = {
 };
 
 const Articles: React.FC<ArticlesProps> = ({ articles }) => {
+  console.log(`Articles: ${articles.length}`);
+
   const getFullUrl = (url: string) => {
     if (!/^https?:\/\//i.test(url)) {
       return `http://${url}`;
@@ -26,6 +28,7 @@ const Articles: React.FC<ArticlesProps> = ({ articles }) => {
             <p>{article.description}</p>
             <p>Source: {article.source}</p>
             <p>Date: {article.date}</p>
+            <p>Search Term: {article.searchTerm}</p>
             <p>
               Link:{" "}
               <a
@@ -36,18 +39,16 @@ const Articles: React.FC<ArticlesProps> = ({ articles }) => {
                 {article.link}
               </a>
             </p>
-            <p>
-              {article.img && (
-                <p>
-                  <Image
-                    src={article.img || ""}
-                    alt={article.title || "Article image"}
-                    height={100}
-                    width={100}
-                  />
-                </p>
-              )}
-            </p>
+            {article.img && (
+              <p>
+                <Image
+                  src={article.img || ""}
+                  alt={article.title || "Article image"}
+                  height={100}
+                  width={100}
+                />
+              </p>
+            )}
             <p>Author: {article.author}</p>
           </div>
         </div>

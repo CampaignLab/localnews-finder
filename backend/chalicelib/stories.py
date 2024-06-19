@@ -27,6 +27,7 @@ class Article(BaseModel):
     link: Optional[str] = None
     img: Optional[str] = None
     author: Optional[str] = None
+    searchTerm: Optional[str] = None
 
 
 async def getGoogleNewsStories(searchTerm):
@@ -40,6 +41,7 @@ async def getGoogleNewsStories(searchTerm):
             img=result["img"],
             source=result["media"],
             author=result["reporter"],
+            searchTerm=searchTerm,
         )
         for result in results
     ]
@@ -59,6 +61,7 @@ async def getNewsApiStories(searchTerm):
             img=article["urlToImage"],
             source=article["source"]["name"],
             author=article["author"],
+            searchTerm=searchTerm,
         )
         for article in everything["articles"]
     ]

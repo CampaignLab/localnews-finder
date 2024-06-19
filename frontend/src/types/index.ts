@@ -7,4 +7,5 @@ export interface Article {
   link?: string;
   img?: string;
   author?: string;
+  searchTerm?: string;
 }

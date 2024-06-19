@@ -17,19 +17,23 @@ const Search = () => {
     setSelectedTopic(event.target.value);
   };
 
-  const appendTerm = async (constituencyUrl: string, term: string) => {
+  const appendTerm = async (constituency: string, term: string) => {
     console.log(`Searching for ${term}`);
-    const response = await axios.get(`${constituencyUrl}${term}`);
-    setArticles([...articles, ...response.data]);
+    const url = `${BASE_URL}/search?constituency=${constituency}&topic=${term}`;
+    const response = await axios.get(url);
+    console.log(
+      `Found ${response.data.length} articles for ${constituency} ${term}`
+    );
+    if (response.data?.length > 0) {
+      setArticles([...articles, ...response.data]);
+    }
   };
 
   const getArticles = (topic: string, constituency: string) => {
     if (!topic || !constituency) return [];
-    console.log(`Searching for ${topic} in ${constituency}`);
-    const constituencyUrl = `${BASE_URL}/search?constituency=${constituency}&topic=`;
     setArticles([]);
     const terms = topicMap[topic];
-    terms.map((term) => appendTerm(constituencyUrl, term));
+    terms.map((term) => appendTerm(constituency, term));
   };
 
   return (
