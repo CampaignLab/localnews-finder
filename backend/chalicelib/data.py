@@ -20,10 +20,8 @@ def tsv_to_dict(file_path):
 
 
 towns = csv_to_dict("chalicelib/towns123.csv")
-topics = tsv_to_dict("chalicelib/topics.tsv")
 
 places_map = {}
-topics_map = {}
 
 for row in towns:
     key = row["new_constituency_name"]
@@ -36,19 +34,9 @@ for row in towns:
 print("The data is loaded")
 
 
-for row in topics:
-    key = row["Topic"]
-    value = row["Terms"]
-    topics_map[key] = [term.strip() for term in value.split(",")]
-
-
 def getConstituencies():
     return list(places_map.keys())
 
 
 def getPlaces(constituency):
     return [constituency] + places_map.get(constituency, [])
-
-
-def getTerms(topic):
-    return topics_map.get(topic, [])

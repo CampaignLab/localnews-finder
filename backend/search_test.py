@@ -1,3 +1,3 @@
 from chalicelib.search import search
 
-print(search("Broxbourne", "Crime"))
+print(search("Broxbourne", "crime"))

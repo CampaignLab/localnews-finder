@@ -1,4 +1,3 @@
-import Articles from "./Articles";
 import Search from "./Search";
 const Main = () => {
   return (
@@ -8,7 +7,6 @@ const Main = () => {
         <div className="divider divider-neutral"></div>
 
         <Search />
-        {/* <Articles /> */}
       </div>
     </>
   );

@@ -12,13 +12,11 @@ async def get_stories_for_place(place, term):
 async def async_search(constituency, topic):
     print(f"Searching for {topic} stories in {constituency}")
     places_list = data.getPlaces(constituency)
-    terms_list = data.getTerms(topic)
-    print(f"{len(places_list)} places and {len(terms_list)} terms found")
+    print(f"{len(places_list)} places found")
 
     tasks = []
     for place in places_list:
-        for term in terms_list:
-            tasks.append(get_stories_for_place(place, term))
+        tasks.append(get_stories_for_place(place, topic))
     print(f"{len(tasks)} tasks created")
     results = await asyncio.gather(*tasks)
     stories_list = []
