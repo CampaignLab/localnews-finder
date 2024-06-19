@@ -1,7 +1,6 @@
 import aiohttp
 
 from newsapi import const
-from newsapi.newsapi_auth import NewsApiAuth
 from newsapi.newsapi_exception import NewsAPIException
 from newsapi.utils import is_valid_string, stringify_date_param
 
@@ -138,7 +137,7 @@ class AsyncNewsApiClient(object):
         # Language
         if language is not None:
             if is_valid_string(language):
-                if language not in const.LANGUAGES:
+                if language not in const.languages:
                     raise ValueError("invalid language")
                 else:
                     payload["language"] = language
@@ -148,7 +147,7 @@ class AsyncNewsApiClient(object):
         # Sort Method
         if sort_by is not None:
             if is_valid_string(sort_by):
-                if sort_by in const.SORT_METHOD:
+                if sort_by in const.sort_method:
                     payload["sortBy"] = sort_by
                 else:
                     raise ValueError("invalid sort")
@@ -176,6 +175,8 @@ class AsyncNewsApiClient(object):
                     raise ValueError("page param should be an int greater than 0")
             else:
                 raise TypeError("page param should be an int")
+
+        print(payload)
 
         # Send Request
         async with aiohttp.ClientSession("https://newsapi.org") as session:

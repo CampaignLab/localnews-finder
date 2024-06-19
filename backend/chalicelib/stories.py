@@ -50,7 +50,13 @@ async def getGoogleNewsStories(searchTerm):
 
 
 async def getNewsApiStories(searchTerm):
-    everything = await api.get_everything(q=searchTerm)
+    everything = await api.get_everything(
+        q=searchTerm,
+        sort_by="relevancy",
+        from_param="2022-07-04",
+        language="en",
+        page_size=10,
+    )
     retval = [
         Article(
             title=article["title"],
@@ -64,14 +70,13 @@ async def getNewsApiStories(searchTerm):
             searchTerm=searchTerm,
         )
         for article in everything["articles"]
+        if article["content"] != "[Removed]"
     ]
     print(f"Found {len(retval)} stories on News API for {searchTerm}")
     return retval
 
 
 async def getStories(placename, topic):
-    searchTerm = f"{placename} {topic}"
-    newsresults, googleresults = await asyncio.gather(
-        getNewsApiStories(searchTerm), getGoogleNewsStories(searchTerm)
-    )
-    return newsresults + googleresults
+    searchTerm = f'+"{placename}" +UK +"{topic}"'
+    newsresults = await getNewsApiStories(searchTerm)
+    return newsresults

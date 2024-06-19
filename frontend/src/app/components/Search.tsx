@@ -20,12 +20,16 @@ const Search = () => {
   const appendTerm = async (constituency: string, term: string) => {
     console.log(`Searching for ${term}`);
     const url = `${BASE_URL}/search?constituency=${constituency}&topic=${term}`;
-    const response = await axios.get(url);
-    console.log(
-      `Found ${response.data.length} articles for ${constituency} ${term}`
-    );
-    if (response.data?.length > 0) {
-      setArticles([...articles, ...response.data]);
+    try {
+      const response = await axios.get(url);
+      console.log(
+        `Found ${response.data.length} articles for ${constituency} ${term}.`
+      );
+      if (response.data?.length > 0) {
+        setArticles((prevArticles) => [...prevArticles, ...response.data]);
+      }
+    } catch (error) {
+      console.error(`Error fetching articles: ${error}`);
     }
   };
 

@@ -5,17 +5,22 @@ type ArticlesProps = {
 };
 
 const Articles: React.FC<ArticlesProps> = ({ articles }) => {
-  console.log(`Articles: ${articles.length}`);
-
   const getFullUrl = (url: string) => {
     if (!/^https?:\/\//i.test(url)) {
       return `http://${url}`;
     }
     return url;
   };
+
+  const map = new Map<string, Article>();
+  articles.forEach((article) => {
+    map.set(article.title || "", article);
+  });
+  console.log(`Articles: ${map.size}`);
+
   return (
     <div className="w-80 lg:w-full">
-      {articles.map((article) => (
+      {Array.from(map.values()).map((article) => (
         <div
           key={article.title}
           className="collapse collapse-arrow bg-base-200 mb-4"
