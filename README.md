@@ -64,7 +64,8 @@ Please only deploy code that is merged to the `main` branch.
 
 ```bash
 cd backend
-chalice deploy
+source .venv/bin/activate
+python deploy.py
 ```
 
 ## Deploying the frontend
