@@ -16,6 +16,7 @@ Then:
 
 ```bash
 cd backend
+python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 echo "NEWS_API_KEY=<our api key>" > .env
@@ -79,4 +80,4 @@ bun run build
 bun run deploy
 ```
 
-The site is currently running at https://d30wfp6i5v88nt.cloudfront.net/
+The site is currently running at https://www.localnewsfinder.uk/
