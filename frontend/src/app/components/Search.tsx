@@ -19,7 +19,9 @@ const Search = () => {
 
   const appendTerm = async (constituency: string, term: string) => {
     console.log(`Searching for ${term}`);
-    const url = `${BASE_URL}/search?constituency=${constituency}&topic=${term}`;
+    const url = `${BASE_URL}/search?constituency=${constituency}&topic=${encodeURIComponent(
+      term
+    )}`;
     try {
       const response = await axios.get(url);
       console.log(
