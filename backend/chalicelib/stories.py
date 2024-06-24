@@ -3,7 +3,7 @@ from .asyncnewsapi.newsapi_client import AsyncNewsApiClient
 
 from pydantic import BaseModel
 from typing import Optional
-import asyncio
+from urllib.parse import quote
 import os
 
 from dotenv import load_dotenv
@@ -76,7 +76,10 @@ async def getNewsApiStories(searchTerm):
     return retval
 
 
-async def getStories(placename, topic):
-    searchTerm = f'+"{placename}" +UK +"{topic}"'
+async def getStories(places, topic):
+    placeswithquotes = [f'"{place}"' for place in places]
+    orexpression = " OR ".join(placeswithquotes)
+    searchTerm = quote(f'({orexpression})" AND UK AND "{topic}"')
+    print(f"Search term {len(searchTerm)} long")
     newsresults = await getNewsApiStories(searchTerm)
     return newsresults

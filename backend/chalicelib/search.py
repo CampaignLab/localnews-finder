@@ -14,11 +14,7 @@ async def async_search(constituency, topic):
     places_list = data.getPlaces(constituency)
     print(f"{len(places_list)} places found")
 
-    tasks = []
-    for place in places_list:
-        tasks.append(get_stories_for_place(place, topic))
-    print(f"{len(tasks)} tasks created")
-    results = await asyncio.gather(*tasks)
+    results = await stories.getStories(places_list, topic)
     stories_list = []
     for result in results:
         stories_list.extend(result)
