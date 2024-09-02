@@ -26,7 +26,7 @@ command = [
     "--function-name",
     "localnews-finder-backend-dev",
     "--environment",
-    f"Variables={{NEWS_API_KEY={var1}}}",
+    f"Variables={{NEWS_API_KEY={var1},REDIS_HOST={os.getenv('REDIS_HOST')},REDIS_PORT={os.getenv('REDIS_PORT')},RUN_LAMBDA=True}}",
 ]
 
 # Run the command
