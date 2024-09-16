@@ -16,7 +16,7 @@ else:
     print(deploy_result.stderr)
 
 # Retrieve environment variables
-var1 = os.getenv("NEWS_API_KEY")
+var1 = os.getenv("BING_API_KEY")
 
 # Define the AWS CLI command to set environment variables
 command = [
@@ -26,7 +26,7 @@ command = [
     "--function-name",
     "localnews-finder-backend-dev",
     "--environment",
-    f"Variables={{NEWS_API_KEY={var1}}}",
+    f"Variables={{BING_API_KEY={var1}}}",
 ]
 
 # Run the command
