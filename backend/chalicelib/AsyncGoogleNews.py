@@ -26,15 +26,18 @@ class GoogleNews:
         to_: str = None,
         page: int = 1,
     ):
-        url = f"/search?q={search}&hl={self.lang}&gl={self.region}&tbm=nws&start={10 * (page - 1)}"
+        url = f"/search?q={search}&hl={self.lang}&gl={self.region}&ceid={self.region}%3A{self.lang}"
         if when is not None:
             url += f"&tbs=qdr:{when}"
         if from_ is not None and to_ is not None:
             url += f"&tbs=cdr:1,cd_min:{from_},cd_max:{to_}"
 
-        async with aiohttp.ClientSession("https://www.google.com") as session:
+        async with aiohttp.ClientSession("https://news.google.com") as session:
+            print(f"Searching {url}")
             async with session.get(url) as response:
-                return await response.text()
+                text = await response.text()
+                print(text)
+                return text
 
     async def search(
         self, key: str, when: str = None, from_: str = None, to_: str = None
@@ -44,7 +47,7 @@ class GoogleNews:
         self.urls = []
 
         tasks = []
-        for page in range(1, 11):  # Assuming you want the first 10 pages
+        for page in range(1, 2):  # Assuming you want the first 10 pages
             task = asyncio.ensure_future(
                 self._fetch_and_parse(key, when, from_, to_, page)
             )
@@ -102,7 +105,7 @@ class GoogleNews:
 
 # Example usage
 if __name__ == "__main__":
-    google_news = GoogleNews(lang="en", region="US")
+    google_news = GoogleNews(lang="en", region="GB")
     loop = asyncio.get_event_loop()
     results = loop.run_until_complete(google_news.get_news("Python programming"))
     for result in results:

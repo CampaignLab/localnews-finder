@@ -5,6 +5,7 @@ from pydantic import BaseModel
 from typing import Optional
 import asyncio
 import os
+from urllib.parse import quote
 
 from dotenv import load_dotenv
 
@@ -77,6 +78,6 @@ async def getNewsApiStories(searchTerm):
 
 
 async def getStories(placename, topic):
-    searchTerm = f'+"{placename}" +UK +"{topic}"'
-    newsresults = await getNewsApiStories(searchTerm)
+    searchTerm = quote(f"{placename} {topic}")
+    newsresults = await getGoogleNewsStories(searchTerm)
     return newsresults
