@@ -1,5 +1,6 @@
 from . import stories
 from . import data
+from .topics import TOPIC_MAP
 import asyncio
 
 
@@ -16,7 +17,9 @@ async def async_search(constituency, topic):
 
     tasks = []
     for place in places_list:
-        tasks.append(get_stories_for_place(place, topic))
+        tlist = [topic] + TOPIC_MAP[topic]
+        for term in tlist:
+            tasks.append(get_stories_for_place(place, term))
     print(f"{len(tasks)} tasks created")
     results = await asyncio.gather(*tasks)
     stories_list = []

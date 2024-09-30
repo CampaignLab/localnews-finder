@@ -46,7 +46,6 @@ async def fetch_news(session, query):
 async def getBingNewsStories(query):
     async with aiohttp.ClientSession() as session:
         results = await fetch_news(session, query)
-        print(f"Found {len(results)} results on Bing")
         retval = [
             Article(
                 title=result["name"],

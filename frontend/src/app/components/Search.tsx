@@ -1,5 +1,5 @@
 "use client";
-import { topicMap } from "@/consts";
+import { topics } from "@/consts";
 import { useState } from "react";
 import { Article } from "@/types";
 import axios from "axios";
@@ -38,8 +38,7 @@ const Search = () => {
   const getArticles = (topic: string, constituency: string) => {
     if (!topic || !constituency) return [];
     setArticles([]);
-    const terms = topicMap[topic];
-    terms.map((term) => appendTerm(constituency, term));
+    appendTerm(constituency, topic);
   };
 
   return (
@@ -56,7 +55,7 @@ const Search = () => {
           <option value="pick" disabled>
             Pick a topic
           </option>
-          {Object.keys(topicMap).map((topic, index) => (
+          {topics.map((topic, index) => (
             <option key={index} value={topic}>
               {topic}
             </option>

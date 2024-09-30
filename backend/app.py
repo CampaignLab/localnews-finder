@@ -9,7 +9,6 @@ load_dotenv()
 
 app = Chalice(app_name="localnews-finder-backend")
 app.lambda_function(name="localnews-finder-backend-dev").environment_variables = {
-    "NEWS_API_KEY": os.environ["NEWS_API_KEY"],
     "BING_API_KEY": os.environ["BING_API_KEY"]
 }
 
