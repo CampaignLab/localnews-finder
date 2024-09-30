@@ -54,14 +54,15 @@ async def getBingNewsStories(query):
                 link=result["url"],
                 source=result["provider"][0]["name"],
                 searchTerm=query,
-                date=result["datePublished"]
+                date=result["datePublished"],
             )
             for result in results
         ]
+        print(f"Found {len(results)} results on Bing for {query}")
         return retval
 
 
 async def getStories(placename, topic):
-    searchTerm = quote(f"{placename} {topic}")
+    searchTerm = f"{placename} {topic}"
     newsresults = await getBingNewsStories(searchTerm)
     return newsresults

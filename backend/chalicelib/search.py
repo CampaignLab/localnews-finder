@@ -12,7 +12,7 @@ async def get_stories_for_place(place, term):
 async def async_search(constituency, topic):
     print(f"Searching for {topic} stories in {constituency}")
     places_list = data.getPlaces(constituency)
-    print(f"{len(places_list)} places found")
+    print(f"{len(places_list)} places found: {','.join(places_list)}")
 
     tasks = []
     for place in places_list:

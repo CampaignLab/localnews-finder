@@ -39,4 +39,4 @@ def getConstituencies():
 
 
 def getPlaces(constituency):
-    return [constituency] + places_map.get(constituency, [])
+    return places_map.get(constituency, [])
