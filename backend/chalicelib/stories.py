@@ -54,6 +54,7 @@ async def getBingNewsStories(query):
                 source=result["provider"][0]["name"],
                 searchTerm=query,
                 date=result["datePublished"],
+                img=result["image"]["thumbnail"]["contentUrl"] if "image" in result else None,
             )
             for result in results
         ]
