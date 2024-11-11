@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import {
   Select,
@@ -22,7 +21,7 @@ const Search = ({ setArticles }: SearchProps) => {
   const [selectedTopic, setSelectedTopic] = useState<string>("");
   const [constituency, setConstituency] = useState("");
 
-  const BASE_URL = "http://127.0.0.1:5000";
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 
   const appendTerm = async (constituency: string, term: string) => {
     console.log(`Searching for ${term}`);
