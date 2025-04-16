@@ -11,4 +11,8 @@ def test_data():
     for (constituency, website) in media:
         if not constituency in dtowns:
             missing.append(constituency)
+        
+    missing = sorted(set(missing))
+    for constituency in missing:
+        print(f'{constituency} NOT MAPPED')
     assert missing == []
