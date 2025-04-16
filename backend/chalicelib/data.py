@@ -22,7 +22,7 @@ for row in towns:
 
 for row in media:
     media_map[row[0].replace('"', '')] = row[1]
-print("The data is loaded")
+#print("The data is loaded")
 
 
 def getConstituencies():
@@ -35,3 +35,31 @@ def getPlaces(constituency):
 
 def getMedia(constituency):
     return media_map.get(constituency, "")
+
+
+if __name__ == "__main__":
+    missing = []
+    dtowns = {}
+    for townlist in towns:
+        for town in townlist:
+            dtowns[town] = town
+    for (constituency, website) in media:
+        if not constituency in dtowns:
+            missing.append(constituency)
+            #print(f'{constituency} not mapped')
+    missing = sorted(set(missing))
+    #print(missing)
+    for missed in missing:
+        matched = False
+        (first, last) = missed.split(' and ')
+        #print(missed.split(' and '))
+        #print(missed)
+        for townlist in towns:
+            for town in townlist:
+                if first in town:
+                    #print(','.join([missed] + townlist))
+                    matched = True
+        if matched:
+            print(','.join([missed] + townlist))
+        else:
+            print(','.join(townlist))
