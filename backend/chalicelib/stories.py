@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 from typing import Optional
-from datetime import datetime
+from datetime import datetime, timedelta
 import asyncio
 import aiohttp
 import os
@@ -33,6 +33,7 @@ async def do_query(session, endpoint, query):
             'q': query,
             'count': 5,  # Number of results
             'mkt': 'en-GB',  # Market (language)
+            'since': int((datetime.now() - timedelta(days=365.24)).timestamp()), # since one year ago
             'safeSearch': 'Moderate'  # Safe search level
         }    
     async with session.get(endpoint, headers=headers, params=params) as response:
@@ -64,6 +65,7 @@ async def fetch_web(queue, session, query):
 async def getStories(queue, place, topic):
     thisyear = datetime.now().year
     query = f"{place} {topic} {thisyear}"
+    print(f'Querying with {query}')
     async with aiohttp.ClientSession() as session:
         response = await fetch_news(queue, session, query)
         newsresults = response.get('value', [])
@@ -78,6 +80,7 @@ async def getStories(queue, place, topic):
                 img=result["image"]["thumbnail"]["contentUrl"] if "image" in result else None,
             )
             for result in newsresults
+            # TODO filter out old results
         ]
         print(f"Found {len(retval)} stories for news {query}")
         return retval
