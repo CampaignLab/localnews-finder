@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 from typing import Optional
+from datetime import datetime
 import asyncio
 import aiohttp
 import os
@@ -61,7 +62,8 @@ async def fetch_web(queue, session, query):
 
 
 async def getStories(queue, place, topic):
-    query = f"{place} {topic}"
+    thisyear = datetime.now().year
+    query = f"{place} {topic} {thisyear}"
     async with aiohttp.ClientSession() as session:
         response = await fetch_news(queue, session, query)
         newsresults = response.get('value', [])
