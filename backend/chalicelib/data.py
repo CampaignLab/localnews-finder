@@ -22,7 +22,7 @@ for row in towns:
 
 for row in media:
     media_map[row[0].replace('"', '')] = row[1]
-#print("The data is loaded")
+print("The data is loaded")
 
 
 def getConstituencies():
@@ -36,30 +36,21 @@ def getPlaces(constituency):
 def getMedia(constituency):
     return media_map.get(constituency, "")
 
-
+# Below is code to programmatically regenerate towns.csv with the unmapped consituencies added
 if __name__ == "__main__":
     missing = []
+    unmapped = {}
     dtowns = {}
+    found = {}
     for townlist in towns:
-        for town in townlist:
-            dtowns[town] = town
+        dtowns[townlist[0]] = townlist
     for (constituency, website) in media:
         if not constituency in dtowns:
-            missing.append(constituency)
+            #missing.append(constituency)
             #print(f'{constituency} not mapped')
-    missing = sorted(set(missing))
-    #print(missing)
-    for missed in missing:
-        matched = False
-        (first, last) = missed.split(' and ')
-        #print(missed.split(' and '))
-        #print(missed)
-        for townlist in towns:
-            for town in townlist:
-                if first in town:
-                    #print(','.join([missed] + townlist))
-                    matched = True
-        if matched:
-            print(','.join([missed] + townlist))
-        else:
-            print(','.join(townlist))
+            (first, last) = constituency.split(' and ')
+            if first in dtowns and constituency != dtowns[first][0]:
+                dtowns[first] = [constituency] + dtowns[first]
+
+    for key in sorted(dtowns.keys()):
+        print(','.join(dtowns[key]))
