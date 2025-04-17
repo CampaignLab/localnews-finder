@@ -11,13 +11,13 @@ Alyn and Deeside,Alyn,Deeside,Flintshire
 Amber Valley,Amber Valley,Derbyshire
 Angus and Perthshire Glens,Angus,Perthshire Glens,Angus,Perth,Kinross
 Arbroath and Broughty Ferry,Arbroath,Broughty Ferry,Angus,Dundee City
-Argyll,Bute,South Lochaber,Argyll,Highland
+"Argyll, Bute and South Lochaber",Argyll,Bute,South Lochaber,Argyll,Highland
 Arundel,South Downs,Arun,Chichester,Horsham,West Sussex
 Ashfield,Ashfield,Nottinghamshire
 Ashford,Ashford,Folkestone,Hythe,Kent
 Ashton-under-Lyne,Tameside
 Aylesbury,Buckinghamshire
-Ayr,Carrick,Cumnock,East Ayrshire,South Ayrshire
+"Ayr, Carrick and Cumnock",Ayr,Carrick,Cumnock,East Ayrshire,South Ayrshire
 Banbury,Cherwell,West Oxfordshire,Oxfordshire
 Bangor Aberconwy,Conwy,Denbighshire,Gwynedd
 Barking,Barking,Dagenham
@@ -38,7 +38,7 @@ Belfast North,Antrim,Newtownabbey,Belfast
 Belfast South and Mid Down,Belfast South,Mid Down,Belfast,Lisburn,Castlereagh,Newry,Mourne,Down
 Belfast West,Belfast,Lisburn,Castlereagh
 Bermondsey and Old Southwark,Bermondsey,Old Southwark,Southwark
-Berwickshire,Roxburgh,Selkirk,Scottish Borders
+"Berwickshire, Roxburgh and Selkirk",Berwickshire,Roxburgh,Selkirk,Scottish Borders
 Bethnal Green and Stepney,Bethnal Green,Stepney,Tower Hamlets
 Beverley,Holderness,East Riding of Yorkshire
 Bexhill,Battle,Rother,Wealden,East Sussex
@@ -76,7 +76,7 @@ Bradford East,Bradford
 Bradford South,Bradford
 Bradford West,Bradford
 Braintree,Braintree,Uttlesford,Essex
-Brecon,Radnor,Cwm Tawe,Neath Port Talbot,Powys
+"Brecon, Radnor and Cwm Tawe",Brecon,Radnor,Cwm Tawe,Neath Port Talbot,Powys
 Brent East,Brent
 Brent West,Brent
 Brentford and Isleworth,Brentford,Isleworth,Hounslow,Richmond upon Thames
@@ -105,7 +105,7 @@ Bury South,Bury,Salford
 Bury St Edmunds,Stowmarket,Mid Suffolk,West Suffolk,Suffolk
 Caerfyrddin,Carmarthenshire
 Caerphilly,Caerphilly
-Caithness,Sutherland,Easter Ross,Highland
+"Caithness, Sutherland and Easter Ross",Caithness,Sutherland,Easter Ross,Highland
 Calder Valley,Calderdale
 Camborne and Redruth,Camborne,Redruth,Cornwall
 Cambridge,Cambridge,Cambridgeshire
@@ -177,7 +177,7 @@ Droitwich,Evesham,Wychavon,Worcestershire
 Dudley,Dudley
 Dulwich and West Norwood,Dulwich,West Norwood,Lambeth,Southwark
 Dumfries and Galloway,Dumfries,Galloway,Dumfries,
-Dumfriesshire,Clydesdale,Tweeddale,Dumfries,Galloway,Scottish Borders,South Lanarkshire
+"Dumfriesshire, Clydesdale and Tweeddale",Dumfriesshire,Clydesdale,Tweeddale,Dumfries,Galloway,Scottish Borders,South Lanarkshire
 Dundee Central,Dundee City
 Dunfermline and Dollar,Dunfermline,Dollar,Clackmannanshire,Fife
 Dunstable and Leighton Buzzard,Dunstable,Leighton Buzzard,Central Bedfordshire
@@ -300,7 +300,7 @@ Hyndburn,Hyndburn,Rossendale,Lancashire
 Ilford North,Redbridge
 Ilford South,Barking,Dagenham,Redbridge
 Inverclyde and Renfrewshire West,Inverclyde,Renfrewshire West,Inverclyde,Renfrewshire
-Inverness,Skye,West Ross-shire,Highland
+"Inverness, Skye and West Ross-shire",Inverness,Skye,West Ross-shire,Highland
 Ipswich,Ipswich,Suffolk
 Isle of Wight East,Isle of Wight
 Isle of Wight West,Isle of Wight
@@ -383,9 +383,9 @@ Milton Keynes North,Milton Keynes
 Mitcham and Morden,Mitcham,Morden,Merton
 Monmouthshire,Monmouthshire
 Montgomeryshire and Glyndwr,Montgomeryshire,Glyndwr,Powys,Wrexham
-Moray West,Nairn,Strathspey,Highland,Moray
+"Moray West, Nairn and Strathspey",Moray West,Nairn,Strathspey,Highland,Moray
 Morecambe and Lunesdale,Morecambe,Lunesdale,Lancaster,Westmorland,Furness,Lancashire,
-Motherwell,Wishaw,Carluke,North Lanarkshire,South Lanarkshire
+"Motherwell, Wishaw and Carluke",Motherwell,Wishaw,Carluke,North Lanarkshire,South Lanarkshire
 Na h-Eileanan an Iar,Na h-Eileanan Siar
 Neath and Swansea East,Neath,Swansea East,Neath Port Talbot,Swansea
 New Forest East,New Forest,Hampshire
@@ -453,7 +453,7 @@ Perth and Kinross-shire,Perth,Kinross-shire,Perth,Kinross
 Peterborough,Peterborough
 Plymouth Moor View,Plymouth
 Plymouth Sutton and Devonport,Plymouth Sutton,Devonport,Plymouth
-Pontefract,Castleford,Knottingley,Wakefield
+"Pontefract, Castleford and Knottingley",Pontefract,Castleford,Knottingley,Wakefield
 Pontypridd,Rhondda Cynon Taf
 Poole,Bournemouth,Christchurch,Poole
 Poplar and Limehouse,Poplar,Limehouse,Tower Hamlets
@@ -481,7 +481,7 @@ Rossendale and Darwen,Rossendale,Darwen,Blackburn with Darwen,Rossendale,Lancash
 Rother Valley,Rotherham
 Rotherham,Rotherham
 Rugby,Nuneaton,Bedworth,Rugby,Warwickshire
-Ruislip,Northwood,Pinner,Harrow,Hillingdon
+"Ruislip, Northwood and Pinner",Ruislip,Northwood,Pinner,Harrow,Hillingdon
 Runcorn and Helsby,Runcorn,Helsby,Cheshire West,Chester,Halton
 Runnymede,Weybridge,Elmbridge,Runnymede,Surrey
 Rushcliffe,Rushcliffe,Nottinghamshire
