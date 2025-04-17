@@ -1,16 +1,16 @@
 Aberafan Maesteg,Bridgend,Neath Port Talbot
 Aberdeen North,Aberdeen City
 Aberdeen South,Aberdeen City
-Aberdeenshire North,Moray East,Aberdeenshire,Moray
-Airdrie,Shotts,North Lanarkshire
+Aberdeenshire North and Moray East,Aberdeenshire North,Moray East,Aberdeenshire,Moray
+Airdrie and Shotts,Airdrie,Shotts,North Lanarkshire
 Aldershot,Hart,Rushmoor,Hampshire
 Aldridge-Brownhills,Walsall
-Alloa,Grangemouth,Clackmannanshire,Falkirk
-Altrincham,Sale West,Trafford
-Alyn,Deeside,Flintshire
+Alloa and Grangemouth,Alloa,Grangemouth,Clackmannanshire,Falkirk
+Altrincham and Sale West,Altrincham,Sale West,Trafford
+Alyn and Deeside,Alyn,Deeside,Flintshire
 Amber Valley,Amber Valley,Derbyshire
-Angus,Perthshire Glens,Angus,Perth,Kinross
-Arbroath,Broughty Ferry,Angus,Dundee City
+Angus and Perthshire Glens,Angus,Perthshire Glens,Angus,Perth,Kinross
+Arbroath and Broughty Ferry,Arbroath,Broughty Ferry,Angus,Dundee City
 Argyll,Bute,South Lochaber,Argyll,Highland
 Arundel,South Downs,Arun,Chichester,Horsham,West Sussex
 Ashfield,Ashfield,Nottinghamshire
@@ -23,32 +23,32 @@ Bangor Aberconwy,Conwy,Denbighshire,Gwynedd
 Barking,Barking,Dagenham
 Barnsley North,Barnsley
 Barnsley South,Barnsley
-Barrow,Furness,Cumberland,Westmorland,
+Barrow and Furness,Barrow,Furness,Cumberland,Westmorland,
 Basildon,Billericay,Basildon,Essex
 Basingstoke,Basingstoke,Deane,Hampshire
 Bassetlaw,Bassetlaw,Nottinghamshire
 Bath,Bath,North East Somerset
-Bathgate,Linlithgow,Falkirk,West Lothian
+Bathgate and Linlithgow,Bathgate,Linlithgow,Falkirk,West Lothian
 Battersea,Wandsworth
 Beaconsfield,Buckinghamshire
-Beckenham,Penge,Bromley
+Beckenham and Penge,Beckenham,Penge,Bromley
 Bedford,Bedford
 Belfast East,Belfast,Lisburn,Castlereagh
 Belfast North,Antrim,Newtownabbey,Belfast
-Belfast South,Mid Down,Belfast,Lisburn,Castlereagh,Newry,Mourne,Down
+Belfast South and Mid Down,Belfast South,Mid Down,Belfast,Lisburn,Castlereagh,Newry,Mourne,Down
 Belfast West,Belfast,Lisburn,Castlereagh
-Bermondsey,Old Southwark,Southwark
+Bermondsey and Old Southwark,Bermondsey,Old Southwark,Southwark
 Berwickshire,Roxburgh,Selkirk,Scottish Borders
-Bethnal Green,Stepney,Tower Hamlets
+Bethnal Green and Stepney,Bethnal Green,Stepney,Tower Hamlets
 Beverley,Holderness,East Riding of Yorkshire
 Bexhill,Battle,Rother,Wealden,East Sussex
-Bexleyheath,Crayford,Bexley
+Bexleyheath and Crayford,Bexleyheath,Crayford,Bexley
 Bicester,Woodstock,Cherwell,West Oxfordshire,Oxfordshire
 Birkenhead,Wirral
 Birmingham Edgbaston,Birmingham
 Birmingham Erdington,Birmingham
-Birmingham Hall Green,Moseley,Birmingham
-Birmingham Hodge Hill,Solihull North,Birmingham,Solihull
+Birmingham Hall Green and Moseley,Birmingham Hall Green,Moseley,Birmingham
+Birmingham Hodge Hill and Solihull North,Birmingham Hodge Hill,Solihull North,Birmingham,Solihull
 Birmingham Ladywood,Birmingham
 Birmingham Northfield,Birmingham
 Birmingham Perry Barr,Birmingham
@@ -56,16 +56,16 @@ Birmingham Selly Oak,Birmingham
 Birmingham Yardley,Birmingham
 Bishop Auckland,County Durham
 Blackburn,Blackburn with Darwen
-Blackley,Middleton South,Manchester,Rochdale
-Blackpool North,Fleetwood,Blackpool,Wyre,Lancashire
+Blackley and Middleton South,Blackley,Middleton South,Manchester,Rochdale
+Blackpool North and Fleetwood,Blackpool North,Fleetwood,Blackpool,Wyre,Lancashire
 Blackpool South,Blackpool
-Blaenau Gwent,Rhymney,Blaenau Gwent,Caerphilly
-Blaydon,Consett,County Durham,Gateshead
-Blyth,Ashington,Northumberland
+Blaenau Gwent and Rhymney,Blaenau Gwent,Rhymney,Blaenau Gwent,Caerphilly
+Blaydon and Consett,Blaydon,Consett,County Durham,Gateshead
+Blyth and Ashington,Blyth,Ashington,Northumberland
 Bognor Regis,Littlehampton,Arun,West Sussex
 Bolsover,Bolsover,Mansfield,North East Derbyshire,Derbyshire,Nottinghamshire
 Bolton North East,Bolton
-Bolton South,Walkden,Bolton,Salford
+Bolton South and Walkden,Bolton South,Walkden,Bolton,Salford
 Bolton West,Bolton
 Bootle,Sefton
 Boston,Skegness,Boston,East Lindsey,Lincolnshire
@@ -79,13 +79,13 @@ Braintree,Braintree,Uttlesford,Essex
 Brecon,Radnor,Cwm Tawe,Neath Port Talbot,Powys
 Brent East,Brent
 Brent West,Brent
-Brentford,Isleworth,Hounslow,Richmond upon Thames
+Brentford and Isleworth,Brentford,Isleworth,Hounslow,Richmond upon Thames
 Brentwood,Ongar,Brentwood,Epping Forest,Essex
 Bridgend,Bridgend
 Bridgwater,Somerset
 Bridlington,the Wolds,East Riding of Yorkshire
-Brigg,Immingham,North East Lincolnshire,North Lincolnshire
-Brighton Kemptown,Peacehaven,Brighton,Hove,Lewes,East Sussex
+Brigg and Immingham,Brigg,Immingham,North East Lincolnshire,North Lincolnshire
+Brighton Kemptown and Peacehaven,Brighton Kemptown,Peacehaven,Brighton,Hove,Lewes,East Sussex
 Brighton Pavilion,Brighton,Hove
 Bristol Central,Bristol
 Bristol East,Bristol
@@ -93,11 +93,11 @@ Bristol North East,Bristol,South Gloucestershire
 Bristol North West,Bristol
 Bristol South,Bristol
 Broadland,Fakenham,Broadland,North Norfolk,Norfolk
-Bromley,Biggin Hill,Bromley
+Bromley and Biggin Hill,Bromley,Biggin Hill,Bromley
 Bromsgrove,Bromsgrove,Worcestershire
 Broxbourne,Broxbourne,East Hertfordshire,Hertfordshire
 Broxtowe,Broxtowe,Nottinghamshire
-Buckingham,Bletchley,Buckinghamshire,Milton Keynes
+Buckingham and Bletchley,Buckingham,Bletchley,Buckinghamshire,Milton Keynes
 Burnley,Burnley,Pendle,Lancashire
 Burton,Uttoxeter,East Staffordshire,Staffordshire
 Bury North,Bury
@@ -107,13 +107,13 @@ Caerfyrddin,Carmarthenshire
 Caerphilly,Caerphilly
 Caithness,Sutherland,Easter Ross,Highland
 Calder Valley,Calderdale
-Camborne,Redruth,Cornwall
+Camborne and Redruth,Camborne,Redruth,Cornwall
 Cambridge,Cambridge,Cambridgeshire
 Cannock Chase,Cannock Chase,Staffordshire
 Canterbury,Canterbury,Kent
 Cardiff East,Cardiff
 Cardiff North,Cardiff,Rhondda Cynon Taf
-Cardiff South,Penarth,Cardiff,Vale of Glamorgan
+Cardiff South and Penarth,Cardiff South,Penarth,Cardiff,Vale of Glamorgan
 Cardiff West,Cardiff,Rhondda Cynon Taf
 Carlisle,Cumberland
 Carshalton,Wallington,Sutton
@@ -122,76 +122,76 @@ Central Ayrshire,North Ayrshire,South Ayrshire
 Central Devon,Mid Devon,Teignbridge,West Devon,Devon
 Central Suffolk,North Ipswich,East Suffolk,Ipswich,Mid Suffolk,Suffolk
 Ceredigion Preseli,Ceredigion,Pembrokeshire
-Chatham,Aylesford,Medway,Tonbridge,Malling,Kent,
+Chatham and Aylesford,Chatham,Aylesford,Medway,Tonbridge,Malling,Kent,
 Cheadle,Stockport
 Chelmsford,Chelmsford,Essex
-Chelsea,Fulham,Hammersmith,Kensington,Chelsea
+Chelsea and Fulham,Chelsea,Fulham,Hammersmith,Kensington,Chelsea
 Cheltenham,Cheltenham,Gloucestershire
-Chesham,Amersham,Buckinghamshire
-Chester North,Neston,Cheshire West,Chester
-Chester South,Eddisbury,Cheshire East,Cheshire West,Chester
+Chesham and Amersham,Chesham,Amersham,Buckinghamshire
+Chester North and Neston,Chester North,Neston,Cheshire West,Chester
+Chester South and Eddisbury,Chester South,Eddisbury,Cheshire East,Cheshire West,Chester
 Chesterfield,Chesterfield,Derbyshire
 Chichester,Arun,Chichester,West Sussex
-Chingford,Woodford Green,Redbridge,Waltham Forest
+Chingford and Woodford Green,Chingford,Woodford Green,Redbridge,Waltham Forest
 Chippenham,Wiltshire
 Chipping Barnet,Barnet
 Chorley,Chorley,Lancashire
 Christchurch,Bournemouth,Christchurch,Poole,Dorset
-Cities of London,Westminster,City of London,
+Cities of London and Westminster,Cities of London,Westminster,City of London,
 City of Durham,County Durham
 Clacton,Tendring,Essex
-Clapham,Brixton Hill,Lambeth
+Clapham and Brixton Hill,Clapham,Brixton Hill,Lambeth
 Clwyd East,Denbighshire,Flintshire,Wrexham
 Clwyd North,Conwy,Denbighshire
-Coatbridge,Bellshill,North Lanarkshire
+Coatbridge and Bellshill,Coatbridge,Bellshill,North Lanarkshire
 Colchester,Colchester,Essex
 Colne Valley,Kirklees
 Congleton,Cheshire East
-Corby,East Northamptonshire,North Northamptonshire
+Corby and East Northamptonshire,Corby,East Northamptonshire,North Northamptonshire
 Coventry East,Coventry
 Coventry North West,Coventry
 Coventry South,Coventry
-Cowdenbeath,Kirkcaldy,Fife
-Cramlington,Killingworth,Newcastle upon Tyne,North Tyneside,Northumberland
+Cowdenbeath and Kirkcaldy,Cowdenbeath,Kirkcaldy,Fife
+Cramlington and Killingworth,Cramlington,Killingworth,Newcastle upon Tyne,North Tyneside,Northumberland
 Crawley,Crawley,West Sussex
-Crewe,Nantwich,Cheshire East
+Crewe and Nantwich,Crewe,Nantwich,Cheshire East
 Croydon East,Croydon
 Croydon South,Croydon
 Croydon West,Croydon
-Cumbernauld,Kirkintilloch,East Dunbartonshire,North Lanarkshire
-Dagenham,Rainham,Barking,Dagenham,Havering
+Cumbernauld and Kirkintilloch,Cumbernauld,Kirkintilloch,East Dunbartonshire,North Lanarkshire
+Dagenham and Rainham,Dagenham,Rainham,Barking,Dagenham,Havering
 Darlington,Darlington
 Dartford,Dartford,Kent
 Daventry,North Northamptonshire,West Northamptonshire
 Derby North,Derby
 Derby South,Derby
 Derbyshire Dales,Amber Valley,Derbyshire Dales,South Derbyshire,Derbyshire
-Dewsbury,Batley,Kirklees
+Dewsbury and Batley,Dewsbury,Batley,Kirklees
 Didcot,Wantage,South Oxfordshire,Vale of White Horse,Oxfordshire
 Doncaster Central,Doncaster
-Doncaster East,the Isle of Axholme,Doncaster,North Lincolnshire
+Doncaster East and the Isle of Axholme,Doncaster East,the Isle of Axholme,Doncaster,North Lincolnshire
 Doncaster North,Doncaster
 Dorking,Horley,Mole Valley,Reigate,Banstead,Waverley,Surrey
 Dover,Deal,Dover,Kent
 Droitwich,Evesham,Wychavon,Worcestershire
 Dudley,Dudley
-Dulwich,West Norwood,Lambeth,Southwark
-Dumfries,Galloway,Dumfries,
+Dulwich and West Norwood,Dulwich,West Norwood,Lambeth,Southwark
+Dumfries and Galloway,Dumfries,Galloway,Dumfries,
 Dumfriesshire,Clydesdale,Tweeddale,Dumfries,Galloway,Scottish Borders,South Lanarkshire
 Dundee Central,Dundee City
-Dunfermline,Dollar,Clackmannanshire,Fife
-Dunstable,Leighton Buzzard,Central Bedfordshire
+Dunfermline and Dollar,Dunfermline,Dollar,Clackmannanshire,Fife
+Dunstable and Leighton Buzzard,Dunstable,Leighton Buzzard,Central Bedfordshire
 Dwyfor Meirionnydd,Denbighshire,Gwynedd
-Ealing Central,Acton,Ealing,Hammersmith,Fulham
+Ealing Central and Acton,Ealing Central,Acton,Ealing,Hammersmith,Fulham
 Ealing North,Ealing
 Ealing Southall,Ealing
-Earley,Woodley,Reading,Wokingham
+Earley and Woodley,Earley,Woodley,Reading,Wokingham
 Easington,County Durham
 East Antrim,Antrim,Newtownabbey,Causeway Coast,Glens,Mid,East Antrim
 East Grinstead,Uckfield,Lewes,Mid Sussex,Wealden,East Sussex,West Sussex
 East Ham,Newham
 East Hampshire,Basingstoke,Deane,East Hampshire,Hampshire
-East Kilbride,Strathaven,South Lanarkshire
+East Kilbride and Strathaven,East Kilbride,Strathaven,South Lanarkshire
 East Londonderry,Causeway Coast,Glens,Derry City,Strabane
 East Renfrewshire,East Renfrewshire
 East Surrey,Reigate,Banstead,Tandridge,Surrey
@@ -200,20 +200,20 @@ East Wiltshire,Swindon,Wiltshire
 East Worthing,Shoreham,Adur,Worthing,West Sussex
 Eastbourne,Eastbourne,East Sussex
 Eastleigh,Eastleigh,Test Valley,Hampshire
-Edinburgh East,Musselburgh,City of Edinburgh,East Lothian
-Edinburgh North,Leith,City of Edinburgh
-Edinburgh South West,City of Edinburgh
+Edinburgh East and Musselburgh,Edinburgh East,Musselburgh,City of Edinburgh,East Lothian
+Edinburgh North and Leith,Edinburgh North,Leith,City of Edinburgh
 Edinburgh South,City of Edinburgh
+Edinburgh South West,City of Edinburgh
 Edinburgh West,City of Edinburgh
-Edmonton,Winchmore Hill,Enfield
-Ellesmere Port,Bromborough,Cheshire West,Chester,Wirral
-Eltham,Chislehurst,Bromley,Greenwich
+Edmonton and Winchmore Hill,Edmonton,Winchmore Hill,Enfield
+Ellesmere Port and Bromborough,Ellesmere Port,Bromborough,Cheshire West,Chester,Wirral
+Eltham and Chislehurst,Eltham,Chislehurst,Bromley,Greenwich
 Ely,East Cambridgeshire,South Cambridgeshire,Cambridgeshire
 Enfield North,Enfield
 Epping Forest,Epping Forest,Essex
 Epsom,Ewell,Epsom,Mole Valley,Surrey
 Erewash,Erewash,Derbyshire
-Erith,Thamesmead,Bexley,Greenwich
+Erith and Thamesmead,Erith,Thamesmead,Bexley,Greenwich
 Esher,Walton,Elmbridge,Surrey
 Exeter,Exeter,Devon
 Exmouth,Exeter East,East Devon,Exeter,Devon
@@ -221,64 +221,64 @@ Falkirk,Falkirk
 Fareham,Waterlooville,Fareham,Havant,Winchester,Hampshire
 Farnham,Bordon,East Hampshire,Waverley,Hampshire,Surrey
 Faversham,Mid Kent,Maidstone,Swale,Kent
-Feltham,Heston,Hounslow
-Fermanagh,South Tyrone,Armagh City,Banbridge,Craigavon,Fermanagh,Omagh,Mid Ulster
-Filton,Bradley Stoke,South Gloucestershire
-Finchley,Golders Green,Barnet
+Feltham and Heston,Feltham,Heston,Hounslow
+Fermanagh and South Tyrone,Fermanagh,South Tyrone,Armagh City,Banbridge,Craigavon,Fermanagh,Omagh,Mid Ulster
+Filton and Bradley Stoke,Filton,Bradley Stoke,South Gloucestershire
+Finchley and Golders Green,Finchley,Golders Green,Barnet
 Folkestone,Hythe,Folkestone,Kent
 Forest of Dean,Forest of Dean,Tewkesbury,Gloucestershire
 Foyle,Derry City,Strabane
-Frome,East Somerset,Bath,North East Somerset,Somerset
+Frome and East Somerset,Frome,East Somerset,Bath,North East Somerset,Somerset
 Fylde,Fylde,Wyre,Lancashire
 Gainsborough,West Lindsey,Lincolnshire
 Gateshead Central,Whickham,Gateshead
 Gedling,Gedling,Nottinghamshire
-Gillingham,Rainham,Medway
+Gillingham and Rainham,Gillingham,Rainham,Medway
 Glasgow East,Glasgow City
-Glasgow North East,Glasgow City
 Glasgow North,Glasgow City
-Glasgow South West,Glasgow City
+Glasgow North East,Glasgow City
 Glasgow South,Glasgow City
+Glasgow South West,Glasgow City
 Glasgow West,Glasgow City
-Glastonbury,Somerton,Somerset
-Glenrothes,Mid Fife,Fife
+Glastonbury and Somerton,Glastonbury,Somerton,Somerset
+Glenrothes and Mid Fife,Glenrothes,Mid Fife,Fife
 Gloucester,Gloucester,Gloucestershire
 Godalming,Ash,Guildford,Waverley,Surrey
 Goole,Pocklington,East Riding of Yorkshire
-Gordon,Buchan,Aberdeenshire
-Gorton,Denton,Manchester,Tameside
+Gordon and Buchan,Gordon,Buchan,Aberdeenshire
+Gorton and Denton,Gorton,Denton,Manchester,Tameside
 Gosport,Fareham,Gosport,Hampshire
 Gower,Swansea
 Grantham,Bourne,North Kesteven,South Kesteven,Lincolnshire
 Gravesham,Gravesham,Kent
-Great Grimsby,Cleethorpes,North East Lincolnshire
+Great Grimsby and Cleethorpes,Great Grimsby,Cleethorpes,North East Lincolnshire
 Great Yarmouth,Great Yarmouth,Norfolk
-Greenwich,Woolwich,Greenwich
+Greenwich and Woolwich,Greenwich,Woolwich,Greenwich
 Guildford,Guildford,Surrey
-Hackney North,Stoke Newington,Hackney
-Hackney South,Shoreditch,Hackney
+Hackney North and Stoke Newington,Hackney North,Stoke Newington,Hackney
+Hackney South and Shoreditch,Hackney South,Shoreditch,Hackney
 Halesowen,Dudley,Sandwell
 Halifax,Calderdale
 Hamble Valley,Eastleigh,Fareham,Winchester,Hampshire
-Hamilton,Clyde Valley,South Lanarkshire
-Hammersmith,Chiswick,Hammersmith,Fulham,Hounslow
-Hampstead,Highgate,Camden,Haringey
+Hamilton and Clyde Valley,Hamilton,Clyde Valley,South Lanarkshire
+Hammersmith and Chiswick,Hammersmith,Chiswick,Hammersmith,Fulham,Hounslow
+Hampstead and Highgate,Hampstead,Highgate,Camden,Haringey
 Harborough,Oadby,Wigston,Harborough,Leicestershire
 Harlow,Epping Forest,Harlow,Uttlesford,Essex
 Harpenden,Berkhamsted,Dacorum,St Albans,Hertfordshire
-Harrogate,Knaresborough,North Yorkshire
+Harrogate and Knaresborough,Harrogate,Knaresborough,North Yorkshire
 Harrow East,Brent,Harrow
 Harrow West,Harrow
 Hartlepool,Hartlepool
 Harwich,North Essex,Colchester,Tendring,Essex
 Hastings,Rye,Hastings,Rother,East Sussex
 Havant,Havant,Hampshire
-Hayes,Harlington,Hillingdon
+Hayes and Harlington,Hayes,Harlington,Hillingdon
 Hazel Grove,Stockport
 Hemel Hempstead,Dacorum,Hertfordshire
 Hendon,Barnet
 Henley,Thame,South Oxfordshire,Oxfordshire
-Hereford,South Herefordshire,Herefordshire
+Hereford and South Herefordshire,Hereford,South Herefordshire,Herefordshire
 Herne Bay,Sandwich,Canterbury,Dover,Thanet,Kent
 Hertford,Stortford,East Hertfordshire,Hertfordshire
 Hertsmere,Hertsmere,Welwyn Hatfield,Hertfordshire
@@ -287,36 +287,36 @@ Heywood,Middleton North,Rochdale
 High Peak,High Peak,Derbyshire
 Hinckley,Bosworth,Hinckley,North West Leicestershire,Leicestershire
 Hitchin,Central Bedfordshire,North Hertfordshire,Hertfordshire
-Holborn,St Pancras,Camden
+Holborn and St Pancras,Holborn,St Pancras,Camden
 Honiton,Sidmouth,East Devon,Mid Devon,Devon
-Hornchurch,Upminster,Havering
-Hornsey,Friern Barnet,Barnet,Haringey
+Hornchurch and Upminster,Hornchurch,Upminster,Havering
+Hornsey and Friern Barnet,Hornsey,Friern Barnet,Barnet,Haringey
 Horsham,Horsham,West Sussex
-Houghton,Sunderland South,Sunderland
-Hove,Portslade,Brighton,Hove
+Houghton and Sunderland South,Houghton,Sunderland South,Sunderland
+Hove and Portslade,Hove,Portslade,Brighton,Hove
 Huddersfield,Kirklees
 Huntingdon,Huntingdonshire,Cambridgeshire
 Hyndburn,Hyndburn,Rossendale,Lancashire
 Ilford North,Redbridge
 Ilford South,Barking,Dagenham,Redbridge
-Inverclyde,Renfrewshire West,Inverclyde,Renfrewshire
+Inverclyde and Renfrewshire West,Inverclyde,Renfrewshire West,Inverclyde,Renfrewshire
 Inverness,Skye,West Ross-shire,Highland
 Ipswich,Ipswich,Suffolk
 Isle of Wight East,Isle of Wight
 Isle of Wight West,Isle of Wight
 Islington North,Islington
-Islington South,Finsbury,Hackney,Islington
+Islington South and Finsbury,Islington South,Finsbury,Hackney,Islington
 Jarrow,Gateshead East,Gateshead,South Tyneside
-Keighley,Ilkley,Bradford
+Keighley and Ilkley,Keighley,Ilkley,Bradford
 Kenilworth,Southam,Rugby,Stratford-on-Avon,Warwick,Warwickshire
-Kensington,Bayswater,Kensington,Chelsea,Westminster
+Kensington and Bayswater,Kensington,Bayswater,Kensington,Chelsea,Westminster
 Kettering,North Northamptonshire
-Kilmarnock,Loudoun,East Ayrshire
+Kilmarnock and Loudoun,Kilmarnock,Loudoun,East Ayrshire
+Kingston and Surbiton,Kingston,Surbiton,Kingston upon Thames
 Kingston upon Hull East,Kingston upon Hull
-Kingston upon Hull North,Cottingham,East Riding of Yorkshire,Kingston upon Hull
-Kingston upon Hull West,Haltemprice,East Riding of Yorkshire,Kingston upon Hull
-Kingston,Surbiton,Kingston upon Thames
-Kingswinford,South Staffordshire,Dudley,Staffordshire
+Kingston upon Hull North and Cottingham,Kingston upon Hull North,Cottingham,East Riding of Yorkshire,Kingston upon Hull
+Kingston upon Hull West and Haltemprice,Kingston upon Hull West,Haltemprice,East Riding of Yorkshire,Kingston upon Hull
+Kingswinford and South Staffordshire,Kingswinford,South Staffordshire,Dudley,Staffordshire
 Knowsley,Knowsley
 Lagan Valley,Armagh City,Banbridge,Craigavon,Lisburn,Castlereagh
 Lancaster,Wyre,Lancaster,Lancashire
@@ -324,18 +324,18 @@ Leeds Central,Headingley,Leeds
 Leeds East,Leeds
 Leeds North East,Leeds
 Leeds North West,Leeds
-Leeds South West,Morley,Leeds
 Leeds South,Leeds
+Leeds South West,Morley,Leeds
 Leeds West,Pudsey,Leeds
 Leicester East,Leicester
 Leicester South,Leicester
 Leicester West,Leicester
-Leigh,Atherton,Wigan
+Leigh and Atherton,Leigh,Atherton,Wigan
 Lewes,Lewes,Wealden,East Sussex
 Lewisham East,Lewisham
 Lewisham North,Lewisham
-Lewisham West,East Dulwich,Lewisham,Southwark
-Leyton,Wanstead,Redbridge,Waltham Forest
+Lewisham West and East Dulwich,Lewisham West,East Dulwich,Lewisham,Southwark
+Leyton and Wanstead,Leyton,Wanstead,Redbridge,Waltham Forest
 Lichfield,East Staffordshire,Lichfield,Staffordshire
 Lincoln,Lincoln,North Kesteven,Lincolnshire
 Liverpool Garston,Liverpool
@@ -350,7 +350,7 @@ Loughborough,Charnwood,Leicestershire
 Louth,Horncastle,East Lindsey,Lincolnshire
 Lowestoft,East Suffolk,Suffolk
 Luton North,Luton
-Luton South,South Bedfordshire,Central Bedfordshire,Luton
+Luton South and South Bedfordshire,Luton South,South Bedfordshire,Central Bedfordshire,Luton
 Macclesfield,Cheshire East
 Maidenhead,Bracknell Forest,Windsor,Maidenhead
 Maidstone,Malling,Maidstone,Tonbridge,Kent
@@ -360,50 +360,50 @@ Manchester Central,Manchester,Oldham
 Manchester Rusholme,Manchester
 Manchester Withington,Manchester
 Mansfield,Mansfield,Nottinghamshire
-Melksham,Devizes,Wiltshire
+Melksham and Devizes,Melksham,Devizes,Wiltshire
 Melton,Syston,Charnwood,Melton,Leicestershire
-Meriden,Solihull East,Solihull
-Merthyr Tydfil,Aberdare,Merthyr Tydfil,Rhondda Cynon Taf
+Meriden and Solihull East,Meriden,Solihull East,Solihull
+Merthyr Tydfil and Aberdare,Merthyr Tydfil,Aberdare,Merthyr Tydfil,Rhondda Cynon Taf
+Mid and South Pembrokeshire,Mid,South Pembrokeshire,Pembrokeshire
 Mid Bedfordshire,Bedford,Central Bedfordshire
 Mid Buckinghamshire,Buckinghamshire
 Mid Cheshire,Cheshire East,Cheshire West,Chester
 Mid Derbyshire,Amber Valley,Derby,Erewash,Derbyshire
-Mid Dorset,North Poole,Bournemouth,Christchurch,Poole,Dorset
+Mid Dorset and North Poole,Mid Dorset,North Poole,Bournemouth,Christchurch,Poole,Dorset
 Mid Dunbartonshire,East Dunbartonshire
 Mid Leicestershire,Blaby,Charnwood,Hinckley,Bosworth,Leicestershire
 Mid Norfolk,Breckland,South Norfolk,Norfolk
 Mid Sussex,Mid Sussex,West Sussex
 Mid Ulster,Armagh City,Banbridge,Craigavon,Mid Ulster
-Mid,South Pembrokeshire,Pembrokeshire
-Middlesbrough South,East Cleveland,Middlesbrough,Redcar,Cleveland
-Middlesbrough,Thornaby East,Middlesbrough,Stockton-on-Tees
+Middlesbrough and Thornaby East,Middlesbrough,Thornaby East,Middlesbrough,Stockton-on-Tees
+Middlesbrough South and East Cleveland,Middlesbrough South,East Cleveland,Middlesbrough,Redcar,Cleveland
 Midlothian,Midlothian
 Milton Keynes Central,Milton Keynes
 Milton Keynes North,Milton Keynes
-Mitcham,Morden,Merton
+Mitcham and Morden,Mitcham,Morden,Merton
 Monmouthshire,Monmouthshire
-Montgomeryshire,Glyndwr,Powys,Wrexham
+Montgomeryshire and Glyndwr,Montgomeryshire,Glyndwr,Powys,Wrexham
 Moray West,Nairn,Strathspey,Highland,Moray
-Morecambe,Lunesdale,Lancaster,Westmorland,Furness,Lancashire,
+Morecambe and Lunesdale,Morecambe,Lunesdale,Lancaster,Westmorland,Furness,Lancashire,
 Motherwell,Wishaw,Carluke,North Lanarkshire,South Lanarkshire
 Na h-Eileanan an Iar,Na h-Eileanan Siar
-Neath,Swansea East,Neath Port Talbot,Swansea
+Neath and Swansea East,Neath,Swansea East,Neath Port Talbot,Swansea
 New Forest East,New Forest,Hampshire
 New Forest West,New Forest,Hampshire
 Newark,Bassetlaw,Newark,Sherwood,Rushcliffe,Nottinghamshire
 Newbury,West Berkshire
-Newcastle upon Tyne Central,West,Newcastle upon Tyne
-Newcastle upon Tyne East,Wallsend,Newcastle upon Tyne,North Tyneside
+Newcastle upon Tyne Central and West,Newcastle upon Tyne Central,West,Newcastle upon Tyne
+Newcastle upon Tyne East and Wallsend,Newcastle upon Tyne East,Wallsend,Newcastle upon Tyne,North Tyneside
 Newcastle upon Tyne North,Newcastle upon Tyne,North Tyneside
 Newcastle-under-Lyme,Newcastle-under-Lyme,Staffordshire
 Newport East,Newport
-Newport West,Islwyn,Caerphilly,Newport
-Newry,Armagh,Armagh City,Banbridge,Craigavon,Newry,Mourne,Down
+Newport West and Islwyn,Newport West,Islwyn,Caerphilly,Newport
+Newry and Armagh,Newry,Armagh,Armagh City,Banbridge,Craigavon,Newry,Mourne,Down
 Newton Abbot,Teignbridge,Devon
-Newton Aycliffe,Spennymoor,County Durham
-Normanton,Hemsworth,Wakefield
+Newton Aycliffe and Spennymoor,Newton Aycliffe,Spennymoor,County Durham
+Normanton and Hemsworth,Normanton,Hemsworth,Wakefield
 North Antrim,Causeway Coast,Glens,Mid,East Antrim
-North Ayrshire,Arran,North Ayrshire
+North Ayrshire and Arran,North Ayrshire,Arran,North Ayrshire
 North Bedfordshire,Bedford,Central Bedfordshire
 North Cornwall,Cornwall
 North Cotswolds,Cotswold,Stroud,Tewkesbury,Gloucestershire
@@ -416,7 +416,7 @@ North East Derbyshire,Chesterfield,North East Derbyshire,Derbyshire
 North East Fife,Fife
 North East Hampshire,Basingstoke,Deane,Hart,Hampshire
 North East Hertfordshire,East Hertfordshire,North Hertfordshire,Hertfordshire
-North East Somerset,Hanham,Bath,North East Somerset,South Gloucestershire
+North East Somerset and Hanham,North East Somerset,Hanham,Bath,North East Somerset,South Gloucestershire
 North Herefordshire,Herefordshire
 North Norfolk,North Norfolk,Norfolk
 North Northumberland,Northumberland
@@ -433,69 +433,68 @@ Northampton South,West Northamptonshire
 Norwich North,Broadland,Norwich,Norfolk
 Norwich South,Norwich,South Norfolk,Norfolk
 Nottingham East,Nottingham
-Nottingham North,Kimberley,Broxtowe,Nottingham,Nottinghamshire
+Nottingham North and Kimberley,Nottingham North,Kimberley,Broxtowe,Nottingham,Nottinghamshire
 Nottingham South,Nottingham
 Nuneaton,North Warwickshire,Nuneaton,Bedworth,Warwickshire
-Old Bexley,Sidcup,Bexley
+Old Bexley and Sidcup,Old Bexley,Sidcup,Bexley
 Oldham East,Saddleworth,Oldham
 Oldham West,Chadderton,Royton,Oldham
-Orkney,Shetland,Orkney Islands,Shetland Islands
+Orkney and Shetland,Orkney,Shetland,Orkney Islands,Shetland Islands
 Orpington,Bromley
-Ossett,Denby Dale,Kirklees,Wakefield
+Ossett and Denby Dale,Ossett,Denby Dale,Kirklees,Wakefield
 Oxford East,Oxford,Oxfordshire
 Oxford West,Abingdon,Oxford,Vale of White Horse,Oxfordshire
-Paisley,Renfrewshire North,Glasgow City,Renfrewshire
-Paisley,Renfrewshire South,Renfrewshire
+Paisley and Renfrewshire South,Paisley and Renfrewshire North,Paisley,Renfrewshire South,Renfrewshire
 Peckham,Southwark
 Pendle,Clitheroe,Pendle,Ribble Valley,Lancashire
-Penistone,Stocksbridge,Barnsley,Sheffield
-Penrith,Solway,Cumberland,Westmorland,Furness
-Perth,Kinross-shire,Perth,Kinross
+Penistone and Stocksbridge,Penistone,Stocksbridge,Barnsley,Sheffield
+Penrith and Solway,Penrith,Solway,Cumberland,Westmorland,Furness
+Perth and Kinross-shire,Perth,Kinross-shire,Perth,Kinross
 Peterborough,Peterborough
 Plymouth Moor View,Plymouth
-Plymouth Sutton,Devonport,Plymouth
+Plymouth Sutton and Devonport,Plymouth Sutton,Devonport,Plymouth
 Pontefract,Castleford,Knottingley,Wakefield
 Pontypridd,Rhondda Cynon Taf
 Poole,Bournemouth,Christchurch,Poole
-Poplar,Limehouse,Tower Hamlets
+Poplar and Limehouse,Poplar,Limehouse,Tower Hamlets
 Portsmouth North,Portsmouth
 Portsmouth South,Portsmouth
 Preston,Preston,Lancashire
 Putney,Wandsworth
-Queen's Park,Maida Vale,Brent,Westminster
-Rawmarsh,Conisbrough,Doncaster,Rotherham
+Queen's Park and Maida Vale,Queen's Park,Maida Vale,Brent,Westminster
+Rawmarsh and Conisbrough,Rawmarsh,Conisbrough,Doncaster,Rotherham
 Rayleigh,Wickford,Basildon,Rochford,Essex
 Reading Central,Reading
-Reading West,Mid Berkshire,Reading,West Berkshire
+Reading West and Mid Berkshire,Reading West,Mid Berkshire,Reading,West Berkshire
 Redcar,Redcar,Cleveland
 Redditch,Redditch,Wychavon,Worcestershire
 Reigate,Reigate,Banstead,Surrey
-Rhondda,Ogmore,Bridgend,Rhondda Cynon Taf
+Rhondda and Ogmore,Rhondda,Ogmore,Bridgend,Rhondda Cynon Taf
 Ribble Valley,Preston,Ribble Valley,South Ribble,Lancashire
+Richmond and Northallerton,Richmond,Northallerton,North Yorkshire
 Richmond Park,Kingston upon Thames,Richmond upon Thames
-Richmond,Northallerton,North Yorkshire
 Rochdale,Rochdale
-Rochester,Strood,Medway
+Rochester and Strood,Rochester,Strood,Medway
 Romford,Havering
-Romsey,Southampton North,Southampton,Test Valley,Hampshire,
-Rossendale,Darwen,Blackburn with Darwen,Rossendale,Lancashire
+Romsey and Southampton North,Romsey,Southampton North,Southampton,Test Valley,Hampshire,
+Rossendale and Darwen,Rossendale,Darwen,Blackburn with Darwen,Rossendale,Lancashire
 Rother Valley,Rotherham
 Rotherham,Rotherham
 Rugby,Nuneaton,Bedworth,Rugby,Warwickshire
 Ruislip,Northwood,Pinner,Harrow,Hillingdon
-Runcorn,Helsby,Cheshire West,Chester,Halton
+Runcorn and Helsby,Runcorn,Helsby,Cheshire West,Chester,Halton
 Runnymede,Weybridge,Elmbridge,Runnymede,Surrey
 Rushcliffe,Rushcliffe,Nottinghamshire
 Rutherglen,South Lanarkshire
-Rutland,Stamford,Harborough,Rutland,South Kesteven,Leicestershire,Lincolnshire,
+Rutland and Stamford,Rutland,Stamford,Harborough,Rutland,South Kesteven,Leicestershire,Lincolnshire,
 Salford,Salford
 Salisbury,Wiltshire
-Scarborough,Whitby,North Yorkshire
+Scarborough and Whitby,Scarborough,Whitby,North Yorkshire
 Scunthorpe,North Lincolnshire
 Sefton Central,Sefton
 Selby,Leeds,North Yorkshire
 Sevenoaks,Dartford,Sevenoaks,Kent
-Sheffield Brightside,Hillsborough,Sheffield
+Sheffield Brightside and Hillsborough,Sheffield Brightside,Hillsborough,Sheffield
 Sheffield Central,Sheffield
 Sheffield Hallam,Sheffield
 Sheffield Heeley,Sheffield
@@ -504,13 +503,13 @@ Sherwood Forest,Ashfield,Gedling,Newark,Sherwood,Nottinghamshire
 Shipley,Bradford
 Shrewsbury,Shropshire
 Sittingbourne,Sheppey,Swale,Kent
-Skipton,Ripon,North Yorkshire
+Skipton and Ripon,Skipton,Ripon,North Yorkshire
 Sleaford,North Hykeham,North Kesteven,Lincolnshire
 Slough,Slough
 Smethwick,Sandwell
-Solihull West,Shirley,Solihull
+Solihull West and Shirley,Solihull West,Shirley,Solihull
 South Antrim,Antrim,Newtownabbey,Lisburn,Castlereagh
-South Basildon,East Thurrock,Basildon,Thurrock,Essex,
+South Basildon and East Thurrock,South Basildon,East Thurrock,Basildon,Thurrock,Essex,
 South Cambridgeshire,Cambridge,South Cambridgeshire,Cambridgeshire
 South Cotswolds,Cotswold,Stroud,Wiltshire,Gloucestershire,
 South Derbyshire,South Derbyshire,Derbyshire
@@ -532,23 +531,23 @@ South West Norfolk,Breckland,King's Lynn,West Norfolk,Norfolk
 South West Wiltshire,Wiltshire
 Southampton Itchen,Southampton
 Southampton Test,Southampton
-Southend East,Rochford,Southend-on-Sea,Essex,
-Southend West,Leigh,Southend-on-Sea
-Southgate,Wood Green,Enfield,Haringey
+Southend East and Rochford,Southend East,Rochford,Southend-on-Sea,Essex,
+Southend West and Leigh,Southend West,Leigh,Southend-on-Sea
+Southgate and Wood Green,Southgate,Wood Green,Enfield,Haringey
 Southport,Sefton,West Lancashire,Lancashire,
 Spelthorne,Spelthorne,Surrey
 Spen Valley,Kirklees
 St Albans,St Albans,Hertfordshire
-St Austell,Newquay,Cornwall
+St Austell and Newquay,St Austell,Newquay,Cornwall
 St Helens North,St. Helens
-St Helens South,Whiston,Knowsley,St. Helens
+St Helens South and Whiston,St Helens South,Whiston,Knowsley,St. Helens
 St Ives,Cornwall,Isles of Scilly
 St Neots,Mid Cambridgeshire,Huntingdonshire,South Cambridgeshire,Cambridgeshire
 Stafford,Newcastle-under-Lyme,Stafford,Staffordshire
 Staffordshire Moorlands,Staffordshire Moorlands,Staffordshire
-Stalybridge,Hyde,Tameside
+Stalybridge and Hyde,Stalybridge,Hyde,Tameside
 Stevenage,East Hertfordshire,North Hertfordshire,Stevenage,Hertfordshire
-Stirling,Strathallan,Perth,Kinross,Stirling
+Stirling and Strathallan,Stirling,Strathallan,Perth,Kinross,Stirling
 Stockport,Stockport
 Stockton North,Stockton-on-Tees
 Stockton West,Darlington,Stockton-on-Tees
@@ -560,71 +559,71 @@ Stourbridge,Dudley
 Strangford,Ards,North Down,Newry,Mourne,Down
 Stratford and Bow,Stratford,Bow,Newham,Tower Hamlets
 Stratford-on-Avon,Stratford-on-Avon,Warwickshire
-Streatham,Croydon North,Croydon,Lambeth
-Stretford,Urmston,Trafford
+Streatham and Croydon North,Streatham,Croydon North,Croydon,Lambeth
+Stretford and Urmston,Stretford,Urmston,Trafford
 Stroud,Stroud,Gloucestershire
 Suffolk Coastal,East Suffolk,Suffolk
 Sunderland Central,Sunderland
 Surrey Heath,Guildford,Surrey Heath,Surrey
 Sussex Weald,Wealden,East Sussex
-Sutton Coldfield,Birmingham
 Sutton,Cheam,Sutton
+Sutton Coldfield,Birmingham
 Swansea West,Swansea
 Swindon North,Swindon
 Swindon South,Swindon
 Tamworth,Lichfield,Tamworth,Staffordshire
 Tatton,Cheshire East,Cheshire West,Chester,Warrington
-Taunton,Wellington,Somerset
+Taunton and Wellington,Taunton,Wellington,Somerset
 Telford,Telford,Wrekin
 Tewkesbury,Cheltenham,Gloucester,Tewkesbury,Gloucestershire
 The Wrekin,Shropshire,Telford,Wrekin
-Thirsk,Malton,North Yorkshire
-Thornbury,Yate,South Gloucestershire
+Thirsk and Malton,Thirsk,Malton,North Yorkshire
+Thornbury and Yate,Thornbury,Yate,South Gloucestershire
 Thurrock,Thurrock
-Tipton,Wednesbury,Dudley,Sandwell
-Tiverton,Minehead,Mid Devon,Somerset,Devon,
+Tipton and Wednesbury,Tipton,Wednesbury,Dudley,Sandwell
+Tiverton and Minehead,Tiverton,Minehead,Mid Devon,Somerset,Devon,
 Tonbridge,Sevenoaks,Tonbridge,Malling,Kent
 Tooting,Wandsworth
 Torbay,Torbay
 Torfaen,Torfaen
 Torridge,Tavistock,Torridge,West Devon,Devon
 Tottenham,Hackney,Haringey
-Truro,Falmouth,Cornwall
+Truro and Falmouth,Truro,Falmouth,Cornwall
 Tunbridge Wells,Tunbridge Wells,Kent
 Twickenham,Richmond upon Thames
 Tynemouth,North Tyneside
 Upper Bann,Armagh City,Banbridge,Craigavon
-Uxbridge,South Ruislip,Hillingdon
+Uxbridge and South Ruislip,Uxbridge,South Ruislip,Hillingdon
 Vale of Glamorgan,Vale of Glamorgan
-Vauxhall,Camberwell Green,Lambeth,Southwark
-Wakefield,Rothwell,Leeds,Wakefield
+Vauxhall and Camberwell Green,Vauxhall,Camberwell Green,Lambeth,Southwark
+Wakefield and Rothwell,Wakefield,Rothwell,Leeds,Wakefield
 Wallasey,Wirral
-Walsall,Bloxwich,Walsall
+Walsall and Bloxwich,Walsall,Bloxwich,Walsall
 Walthamstow,Waltham Forest
 Warrington North,Warrington
 Warrington South,Warrington
 Warwick,Leamington,Warwick,Warwickshire
-Washington,Gateshead South,Gateshead,Sunderland
+Washington and Gateshead South,Washington,Gateshead South,Gateshead,Sunderland
 Watford,Hertsmere,Watford,Hertfordshire
 Waveney Valley,East Suffolk,Mid Suffolk,South Norfolk,Norfolk,Suffolk
 Weald of Kent,Ashford,Maidstone,Tunbridge Wells,Kent
-Wellingborough,Rushden,North Northamptonshire
-Wells,Mendip Hills,North Somerset,Somerset
+Wellingborough and Rushden,Wellingborough,Rushden,North Northamptonshire
+Wells and Mendip Hills,Wells,Mendip Hills,North Somerset,Somerset
 Welwyn Hatfield,Welwyn Hatfield,Hertfordshire
-West Aberdeenshire,Kincardine,Aberdeenshire
+West Aberdeenshire and Kincardine,West Aberdeenshire,Kincardine,Aberdeenshire
 West Bromwich,Sandwell
 West Dorset,Dorset
 West Dunbartonshire,Glasgow City,West Dunbartonshire
-West Ham,Beckton,Newham
+West Ham and Beckton,West Ham,Beckton,Newham
 West Lancashire,West Lancashire,Lancashire
 West Suffolk,West Suffolk,Suffolk
 West Tyrone,Derry City,Strabane,Fermanagh,Omagh,Mid Ulster
 West Worcestershire,Malvern Hills,Wychavon,Worcestershire
-Westmorland,Lonsdale,Westmorland,Furness
+Westmorland and Lonsdale,Westmorland,Lonsdale,Westmorland,Furness
 Weston-super-Mare,North Somerset
-Wetherby,Easingwold,Leeds,North Yorkshire
-Whitehaven,Workington,Cumberland
-Widnes,Halewood,Halton,Knowsley
+Wetherby and Easingwold,Wetherby,Easingwold,Leeds,North Yorkshire
+Whitehaven and Workington,Whitehaven,Workington,Cumberland
+Widnes and Halewood,Widnes,Halewood,Halton,Knowsley
 Wigan,Wigan
 Wimbledon,Kingston upon Thames,Merton
 Winchester,Winchester,Hampshire
@@ -638,12 +637,12 @@ Wolverhampton North East,Walsall,Wolverhampton
 Wolverhampton South East,Walsall,Wolverhampton
 Wolverhampton West,Wolverhampton
 Worcester,Worcester,Worcestershire
-Worsley,Eccles,Salford,Wigan
+Worsley and Eccles,Worsley,Eccles,Salford,Wigan
 Worthing West,Arun,Worthing,West Sussex
 Wrexham,Wrexham
 Wycombe,Buckinghamshire
 Wyre Forest,Wyre Forest,Worcestershire
-Wythenshawe,Sale East,Manchester,Trafford
+Wythenshawe and Sale East,Wythenshawe,Sale East,Manchester,Trafford
 Yeovil,Somerset
 Ynys Môn,Isle of Anglesey
 York Central,York
