@@ -10,7 +10,7 @@ A Python server built with Chalice, meant to run on AWS Lambda. A React frontend
 
 ## Running locally
 
-You must have Python3 installed on a Unix-like system.
+You must have Python3.12 installed on a Unix-like system. AWS does not yet support anything later.
 
 Then:
 
@@ -51,7 +51,7 @@ This will create a site at http://127.0.0.1:3000 that you can test with.
 You must have a `~/.aws/config` file set up as follows:
 
 ```
-[default]
+[profile localnews-finder]
 aws_access_key_id=<our access key>
 aws_secret_access_key=<our secret key>
 region=eu-west-2

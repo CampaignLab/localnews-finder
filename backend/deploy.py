@@ -6,7 +6,7 @@ import subprocess
 load_dotenv()
 
 # Deploy Chalice app
-deploy_result = subprocess.run(["chalice", "deploy"], capture_output=True, text=True)
+deploy_result = subprocess.run(["chalice", "deploy", "--profile", "localnews-finder"], capture_output=True, text=True)
 
 # Check the deploy result
 if deploy_result.returncode == 0:
@@ -23,6 +23,8 @@ command = [
     "aws",
     "lambda",
     "update-function-configuration",
+    "--profile", 
+    "localnews-finder",
     "--function-name",
     "localnews-finder-backend-dev",
     "--environment",
