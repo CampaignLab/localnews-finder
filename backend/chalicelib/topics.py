@@ -76,6 +76,11 @@ TOPIC_MAP = {
         "cancellations UK trains",
         "delays train",
     ],
+    "Reform": [
+        "abortion",
+        "immigration",
+        "reform",
+    ],
     "Sewage": [
         "water company",
         "sewage discharges",
