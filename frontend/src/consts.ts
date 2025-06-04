@@ -11,6 +11,7 @@ export const topics: string[] = [
   "NHS",
   "Potholes",
   "Rail",
+  "Reform",
   "Sewage",
   "Transport",
 ];
