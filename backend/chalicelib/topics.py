@@ -77,7 +77,6 @@ TOPIC_MAP = {
         "delays train",
     ],
     "Reform": [
-        "abortion",
         "immigration",
         "reform",
     ],
